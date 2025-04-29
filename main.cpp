@@ -5,6 +5,9 @@
 #include <list>
 #include <unordered_map>
 #include <algorithm>
+#include <vector>
+#include <cstdlib>
+#include <ctime>
 
 using namespace std;
 
@@ -23,47 +26,92 @@ struct CacheEntry {
 
 class Cache {
 public:
-    Cache(int capacity) : capacity(capacity) {}
+    virtual ~Cache() = default;
+    virtual bool get(const string &key, double &population) = 0;
+    virtual void put(const string &key, const string &city, const string &country, double population) = 0;
+    virtual void printCache() const = 0;
+};
 
-    bool get(const string &key, double &population) {
-        auto it = cacheMap.find(key);
-        if (it == cacheMap.end())
+class LFUCache : public Cache {
+private:
+    struct Node {
+        string key;
+        string city;
+        string country;
+        double population;
+        int freq;
+        list<string>::iterator freq_it;
+    };
+
+    int capacity;
+    int min_freq;
+    unordered_map<string, Node> key_map;
+    unordered_map<int, list<string>> freq_map;
+
+public:
+    LFUCache(int cap) : capacity(cap), min_freq(0) {}
+
+    bool get(const string &key, double &population) override {
+        auto it = key_map.find(key);
+        if (it == key_map.end()) {
             return false;
-        cacheList.splice(cacheList.begin(), cacheList, it->second);
-        population = it->second->population;
+        }
+
+        Node &node = it->second;
+        int old_freq = node.freq;
+        node.freq++;
+        population = node.population;
+
+        freq_map[old_freq].erase(node.freq_it);
+        if (freq_map[old_freq].empty()) {
+            freq_map.erase(old_freq);
+            if (old_freq == min_freq) {
+                min_freq++;
+            }
+        }
+
+        freq_map[node.freq].push_front(key);
+        node.freq_it = freq_map[node.freq].begin();
         return true;
     }
 
-    void put(const string &key, const string &city, const string &country, double population) {
-        auto it = cacheMap.find(key);
+    void put(const string &key, const string &city, const string &country, double population) override {
+        if (capacity <= 0) return;
 
-        if (it != cacheMap.end()) {
-            it->second->population = population;
-            cacheList.splice(cacheList.begin(), cacheList, it->second);
-        } else {
-            if (cacheList.size() == capacity) {
-                auto lastIt = cacheList.end();
-                --lastIt;
-                cacheMap.erase(lastIt->key);
-                cacheList.pop_back();
+        auto it = key_map.find(key);
+        if (it != key_map.end()) {
+            Node &node = it->second;
+            node.population = population;
+            node.city = city;
+            node.country = country;
+            double dummy;
+            get(key, dummy);
+            return;
+        }
+
+        if (key_map.size() >= capacity) {
+            string evict_key = freq_map[min_freq].back();
+            freq_map[min_freq].pop_back();
+            key_map.erase(evict_key);
+
+            if (freq_map[min_freq].empty()) {
+                freq_map.erase(min_freq);
             }
-            cacheList.push_front({key, city, country, population});
-            cacheMap[key] = cacheList.begin();
         }
+
+        min_freq = 1;
+        freq_map[min_freq].push_front(key);
+        key_map[key] = {key, city, country, population, 1, freq_map[min_freq].begin()};
     }
 
-    void printCache() const {
-        cout << "\n--------- Current Cache ---------\n";
-        for (const auto &entry : cacheList) {
-            cout << "City: " << entry.city << ", Country: " << entry.country << ", Population: " << entry.population << "\n";
+    void printCache() const override {
+        cout << "\n--------- Current LFU Cache ---------\n";
+        for (const auto &pair : key_map) {
+            const Node &node = pair.second;
+            cout << "City: " << node.city << ", Country: " << node.country << ", Population: " << node.population << ", Freq: " << node.freq << "\n";
         }
-        cout << "---------------------------------\n";
+        cout << "-------------------------------------\n";
     }
-
-private:
-    int capacity;
-    list<CacheEntry> cacheList;
-    unordered_map<string, list<CacheEntry>::iterator> cacheMap;
 };
 
 double searchCSV(const string &fileName, const string &city, const string &country) {
@@ -96,37 +144,6 @@ double searchCSV(const string &fileName, const string &city, const string &count
 
 int main() {
     const string csvFile = "C:\\Users\\maddi\\Downloads\\world_cities.csv";
-    Cache cache(10);
 
-    string city, country;
-    while (true) {
-        cout << "\nEnter city name (or type 'exit' to quit): ";
-        getline(cin, city);
-        if (toLower(city) == "exit") {
-            break;
-        }
-
-        cout << "Enter country code: ";
-        getline(cin, country);
-
-        string lowerCity = toLower(city);
-        string lowerCountry = toLower(country);
-        string key = lowerCountry + "|" + lowerCity;
-        double population;
-
-        if (cache.get(key, population)) {
-            cout << "\n(Cache hit) " << city << ", " << country << " has population: " << population << endl;
-        } else {
-            population = searchCSV(csvFile, city, country);
-            if (population != -1) {
-                cout << "\n" << city << ", " << country << " has population: " << population << endl;
-                cache.put(key, city, country, population);
-            } else {
-                cout << "\nCity not found in the dataset.\n";
-            }
-        }
-
-        cache.printCache();
-    }
     return 0;
 }
