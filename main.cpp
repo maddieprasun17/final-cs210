@@ -158,6 +158,57 @@ public:
     }
 };
 
+class RandomCache : public Cache {
+private:
+    vector<CacheEntry> entries;
+    unordered_map<string, size_t> keyMap;
+    int capacity;
+
+public:
+    RandomCache(int cap) : capacity(cap) { srand(time(0)); }
+
+    bool get(const string &key, double &population) override {
+        auto it = keyMap.find(key);
+        if (it == keyMap.end())
+            return false;
+        population = entries[it->second].population;
+        return true;
+    }
+
+    void put(const string &key, const string &city, const string &country, double population) override {
+        auto it = keyMap.find(key);
+        if (it != keyMap.end()) {
+            entries[it->second] = {key, city, country, population};
+            return;
+        }
+
+        if (entries.size() >= capacity) {
+            int index = rand() % entries.size();
+            string evictKey = entries[index].key;
+
+            if (index != entries.size() - 1) {
+                entries[index] = entries.back();
+                keyMap[entries[index].key] = index;
+            }
+
+            entries.pop_back();
+            keyMap.erase(evictKey);
+        }
+
+        entries.push_back({key, city, country, population});
+        keyMap[key] = entries.size() - 1;
+    }
+
+    void printCache() const override {
+        cout << "\n------- Current Random Cache --------\n";
+        for (const CacheEntry &entry : entries) {
+            cout << "City: " << entry.city << ", Country: " << entry.country
+                 << ", Population: " << entry.population << "\n";
+        }
+        cout << "-------------------------------------\n";
+    }
+};
+
 double searchCSV(const string &fileName, const string &city, const string &country) {
     string lowerCity = toLower(city);
     string lowerCountry = toLower(country);
@@ -188,6 +239,63 @@ double searchCSV(const string &fileName, const string &city, const string &count
 
 int main() {
     const string csvFile = "C:\\Users\\maddi\\Downloads\\world_cities.csv";
+    int choice;
 
+    cout << "Choose cache replacement strategy:\n";
+    cout << "1. LFU (Least Frequently Used)\n";
+    cout << "2. FIFO (First-In, First-Out)\n";
+    cout << "3. Random Replacement\n";
+    cout << "Enter your choice (1-3): ";
+    cin >> choice;
+    cin.ignore();
+
+    Cache* cache;
+    switch (choice) {
+        case 1:
+            cache = new LFUCache(10);
+        break;
+        case 2:
+            cache = new FIFOCache(10);
+        break;
+        case 3:
+            cache = new RandomCache(10);
+        break;
+        default:
+            cout << "Invalid choice. Using LFU as default.\n";
+        cache = new LFUCache(10);
+    }
+
+    string city, country;
+    while (true) {
+        cout << "\nEnter city name (or type 'exit' to quit): ";
+        getline(cin, city);
+        if (toLower(city) == "exit") {
+            break;
+        }
+
+        cout << "Enter country code: ";
+        getline(cin, country);
+
+        string lowerCity = toLower(city);
+        string lowerCountry = toLower(country);
+        string key = lowerCountry + "|" + lowerCity;
+        double population;
+
+        if (cache->get(key, population)) {
+            cout << "\n(Cache hit) " << city << ", " << country << " has population: " << population << endl;
+        } else {
+            population = searchCSV(csvFile, city, country);
+            if (population != -1) {
+                cout << "\n" << city << ", " << country << " has population: " << population << endl;
+                cache->put(key, city, country, population);
+            } else {
+                cout << "\nCity not found in the dataset.\n";
+            }
+        }
+
+        cache->printCache();
+    }
+
+    delete cache;
     return 0;
 }
