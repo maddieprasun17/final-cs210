@@ -114,6 +114,50 @@ public:
     }
 };
 
+class FIFOCache : public Cache {
+private:
+    list<CacheEntry> entries;
+    unordered_map<string, list<CacheEntry>::iterator> cacheMap;
+    int capacity;
+
+public:
+    FIFOCache(int cap) : capacity(cap) {}
+
+    bool get(const string &key, double &population) override {
+        auto it = cacheMap.find(key);
+        if (it == cacheMap.end()) {
+            return false;
+        }
+        population = it->second->population;
+        return true;
+    }
+
+    void put(const string &key, const string &city, const string &country, double population) override {
+        auto it = cacheMap.find(key);
+        if (it != cacheMap.end()) {
+            it->second->population = population;
+            return;
+        }
+
+        if (entries.size() >= capacity) {
+            CacheEntry oldest = entries.front();
+            cacheMap.erase(oldest.key);
+            entries.pop_front();
+        }
+
+        entries.push_back({key, city, country, population});
+        cacheMap[key] = --entries.end();
+    }
+
+    void printCache() const override {
+        cout << "\n--------- Current FIFO Cache ---------\n";
+        for (const CacheEntry &entry : entries) {
+            cout << "City: " << entry.city << ", Country: " << entry.country << ", Population: " << entry.population << "\n";
+        }
+        cout << "--------------------------------------\n";
+    }
+};
+
 double searchCSV(const string &fileName, const string &city, const string &country) {
     string lowerCity = toLower(city);
     string lowerCountry = toLower(country);
