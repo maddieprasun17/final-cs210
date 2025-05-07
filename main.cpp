@@ -17,6 +17,57 @@ string toLower(const string &s) {
     return result;
 }
 
+struct TrieNode {
+    bool isEndOfWord;
+    unordered_map<string, double> countryPopulation;
+    unordered_map<char, TrieNode*> children;
+    TrieNode() : isEndOfWord(false) {}
+};
+
+class NameTrie {
+private:
+    TrieNode* root;
+
+public:
+    NameTrie() {
+        root = new TrieNode();
+    }
+
+    void insert(const string& cityName, const string& countryCode, double population) {
+        TrieNode* node = root;
+        string lowerCity = toLower(cityName);
+        for (char c : lowerCity) {
+            if (node->children.find(c) == node->children.end()) {
+                node->children[c] = new TrieNode();
+            }
+            node = node->children[c];
+        }
+        node->isEndOfWord = true;
+        string lowerCountry = toLower(countryCode);
+        node->countryPopulation[lowerCountry] = population;
+    }
+
+    double search(const string& cityName, const string& countryCode) {
+        TrieNode* node = root;
+        string lowerCity = toLower(cityName);
+        string lowerCountry = toLower(countryCode);
+        for (char c : lowerCity) {
+            if (node->children.find(c) == node->children.end()) {
+                return -1.0;
+            }
+            node = node->children[c];
+        }
+        if (!node->isEndOfWord) {
+            return -1.0;
+        }
+        auto it = node->countryPopulation.find(lowerCountry);
+        if (it == node->countryPopulation.end()) {
+            return -1.0;
+        }
+        return it->second;
+    }
+};
+
 struct CacheEntry {
     string key;
     string city;
@@ -209,34 +260,6 @@ public:
     }
 };
 
-double searchCSV(const string &fileName, const string &city, const string &country) {
-    string lowerCity = toLower(city);
-    string lowerCountry = toLower(country);
-
-    ifstream file(fileName);
-    if (!file.is_open()) {
-        cout << "Error opening file " << fileName << endl;
-        return -1;
-    }
-
-    string line;
-    getline(file, line);
-
-    while (getline(file, line)) {
-        stringstream ss(line);
-        string countryCode, cityName, populationStr;
-
-        getline(ss, countryCode, ',');
-        getline(ss, cityName, ',');
-        getline(ss, populationStr, ',');
-
-        if (toLower(countryCode) == lowerCountry && toLower(cityName) == lowerCity) {
-            return stod(populationStr);
-        }
-    }
-    return -1;
-}
-
 int main() {
     const string csvFile = "C:\\Users\\maddi\\Downloads\\world_cities.csv";
     int choice;
@@ -253,30 +276,56 @@ int main() {
     switch (choice) {
         case 1:
             cache = new LFUCache(10);
-        break;
+            break;
         case 2:
             cache = new FIFOCache(10);
-        break;
+            break;
         case 3:
             cache = new RandomCache(10);
-        break;
+            break;
         default:
             cout << "Invalid choice. Using LFU as default.\n";
-        cache = new LFUCache(10);
+            cache = new LFUCache(10);
     }
+
+    NameTrie trie;
+    ifstream file(csvFile);
+    if (!file.is_open()) {
+        cerr << "Error opening file " << csvFile << endl;
+        delete cache;
+        return 1;
+    }
+
+    string line;
+    getline(file, line);
+
+    while (getline(file, line)) {
+        stringstream ss(line);
+        string countryCode, cityName, populationStr;
+        getline(ss, countryCode, ',');
+        getline(ss, cityName, ',');
+        getline(ss, populationStr, ',');
+
+        try {
+            double population = stod(populationStr);
+            trie.insert(cityName, countryCode, population);
+        } catch (const exception& e) {
+            cerr << "Error parsing line: " << line << " - " << e.what() << endl;
+        }
+    }
+    file.close();
 
     string city, country;
     while (true) {
         cout << "\nEnter city name (or type 'exit' to quit): ";
         getline(cin, city);
-        if (toLower(city) == "exit") {
+        string lowerCity = toLower(city);
+        if (lowerCity == "exit") {
             break;
         }
 
         cout << "Enter country code: ";
         getline(cin, country);
-
-        string lowerCity = toLower(city);
         string lowerCountry = toLower(country);
         string key = lowerCountry + "|" + lowerCity;
         double population;
@@ -284,7 +333,7 @@ int main() {
         if (cache->get(key, population)) {
             cout << "\n(Cache hit) " << city << ", " << country << " has population: " << population << endl;
         } else {
-            population = searchCSV(csvFile, city, country);
+            population = trie.search(city, country);
             if (population != -1) {
                 cout << "\n" << city << ", " << country << " has population: " << population << endl;
                 cache->put(key, city, country, population);
