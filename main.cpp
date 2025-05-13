@@ -8,8 +8,11 @@
 #include <vector>
 #include <cstdlib>
 #include <ctime>
+#include <chrono>
+#include <random>
 
 using namespace std;
+using namespace std::chrono;
 
 string toLower(const string &s) {
     string result = s;
@@ -262,89 +265,91 @@ public:
 
 int main() {
     const string csvFile = "C:\\Users\\maddi\\Downloads\\world_cities.csv";
-    int choice;
-
-    cout << "Choose cache replacement strategy:\n";
-    cout << "1. LFU (Least Frequently Used)\n";
-    cout << "2. FIFO (First-In, First-Out)\n";
-    cout << "3. Random Replacement\n";
-    cout << "Enter your choice (1-3): ";
-    cin >> choice;
-    cin.ignore();
-
-    Cache* cache;
-    switch (choice) {
-        case 1:
-            cache = new LFUCache(10);
-            break;
-        case 2:
-            cache = new FIFOCache(10);
-            break;
-        case 3:
-            cache = new RandomCache(10);
-            break;
-        default:
-            cout << "Invalid choice. Using LFU as default.\n";
-            cache = new LFUCache(10);
-    }
-
     NameTrie trie;
+
     ifstream file(csvFile);
     if (!file.is_open()) {
         cerr << "Error opening file " << csvFile << endl;
-        delete cache;
         return 1;
     }
 
+    vector<pair<string, string>> allCities;
     string line;
     getline(file, line);
 
     while (getline(file, line)) {
         stringstream ss(line);
         string countryCode, cityName, populationStr;
-        getline(ss, countryCode, ',');
         getline(ss, cityName, ',');
+        getline(ss, countryCode, ',');
         getline(ss, populationStr, ',');
 
         try {
             double population = stod(populationStr);
             trie.insert(cityName, countryCode, population);
-        } catch (const exception& e) {
+            allCities.emplace_back(cityName, countryCode);
+        } catch (const exception &e) {
             cerr << "Error parsing line: " << line << " - " << e.what() << endl;
         }
     }
     file.close();
 
-    string city, country;
-    while (true) {
-        cout << "\nEnter city name (or type 'exit' to quit): ";
-        getline(cin, city);
-        string lowerCity = toLower(city);
-        if (lowerCity == "exit") {
-            break;
-        }
-
-        cout << "Enter country code: ";
-        getline(cin, country);
-        string lowerCountry = toLower(country);
-        string key = lowerCountry + "|" + lowerCity;
-        double population;
-
-        if (cache->get(key, population)) {
-            cout << "\n(Cache hit) " << city << ", " << country << " has population: " << population << endl;
-        } else {
-            population = trie.search(city, country);
-            if (population != -1) {
-                cout << "\n" << city << ", " << country << " has population: " << population << endl;
-                cache->put(key, city, country, population);
-            } else {
-                cout << "\nCity not found in the dataset.\n";
-            }
-        }
-
-        cache->printCache();
+    if (allCities.empty()) {
+        cerr << "No cities loaded. Exiting!" << endl;
+        return 1;
     }
 
-    delete cache;
+    const int numQueries = 750;
+    const int sampleSize = 250;
+    vector<pair<string, string>> testQueries;
+
+    shuffle(allCities.begin(), allCities.end(), mt19937{random_device{}()});
+    for (int i = 0; i < sampleSize && i < allCities.size(); i++) {
+        testQueries.push_back(allCities[i]);
+    }
+
+    while (testQueries.size() < numQueries) {
+        testQueries.push_back(testQueries[rand() % testQueries.size()]);
+    }
+
+    shuffle(testQueries.begin(), testQueries.end(), mt19937{random_device{}()});
+
+    ofstream outFile("C:\\Users\\maddi\\Downloads\\load_results.csv");
+    outFile << "CacheType,QueryNumber,Country,City,Hit,TimeMicroSeconds\n";
+
+    vector<string> cacheTypes = {"LFU", "FIFO", "Random"};
+    for (const string& type : cacheTypes) {
+        Cache* cache = nullptr;
+        if (type == "LFU") {
+            cache = new LFUCache(10);
+        } else if (type == "FIFO") {
+            cache = new FIFOCache(10);
+        } else {
+            cache = new RandomCache(10);
+        }
+
+        for (int i = 0; i < numQueries; ++i) {
+            string city = testQueries[i].first;
+            string country = testQueries[i].second;
+            string key = toLower(country) + "|" + toLower(city);
+            double population;
+            bool hit;
+
+            auto start = high_resolution_clock::now();
+            hit = cache->get(key, population);
+            if (!hit) {
+                population = trie.search(city, country);
+                if (population != -1.0) {
+                    cache->put(key, city, country, population);
+                }
+            }
+
+            auto end = high_resolution_clock::now();
+            duration<double, micro> duration = end - start;
+            outFile << type << "," << i+1 << "," << city << "," << country << "," << (hit ? "1" : "0") << "," << fixed << setprecision(3) << duration.count() << "\n";
+        }
+        delete cache;
+    }
+    outFile.close();
     return 0;
 }
