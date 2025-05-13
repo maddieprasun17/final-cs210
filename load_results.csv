@@ -1,0 +1,2251 @@
+CacheType,QueryNumber,Country,City,Hit,TimeMicroSeconds
+LFU,1,co,guatape,0,31.000
+LFU,2,gr,nea stira,0,23.000
+LFU,3,ru,elektrougli,0,9.900
+LFU,4,ne,dakoro,0,10.100
+LFU,5,gy,mabaruma,0,9.700
+LFU,6,in,samana,0,9.600
+LFU,7,ca,bonaventure,0,9.900
+LFU,8,de,kolkwitz,0,9.900
+LFU,9,ro,bilbor,0,9.700
+LFU,10,cz,jablunkov,0,9.600
+LFU,11,bh,manama,0,19.700
+LFU,12,ca,saint-hyacinthe,0,19.300
+LFU,13,fr,marly-le-roi,0,18.000
+LFU,14,si,polzela,0,14.300
+LFU,15,us,snohomish,0,13.700
+LFU,16,mx,itzican,0,14.100
+LFU,17,mx,tuxtla chico,0,12.700
+LFU,18,ca,saint-donat-de-montcalm,0,14.900
+LFU,19,ve,punto fijo,0,16.500
+LFU,20,re,saint-paul,0,17.800
+LFU,21,in,samana,0,12.600
+LFU,22,it,melito di porto salvo,0,14.500
+LFU,23,us,albuquerque,0,12.400
+LFU,24,th,pa daet,0,12.900
+LFU,25,cn,qingyuan,0,12.300
+LFU,26,ca,saint-germain-de-grantham,0,14.200
+LFU,27,ws,maninoa,0,12.900
+LFU,28,es,almeria,0,14.400
+LFU,29,cl,chimbarongo,0,12.600
+LFU,30,es,benicarlo,0,12.100
+LFU,31,ua,nova kakhovka,0,13.600
+LFU,32,mg,toamasina,0,14.600
+LFU,33,ru,nikolskiy,0,13.400
+LFU,34,us,wilmington,0,13.700
+LFU,35,zm,chadiza,0,16.800
+LFU,36,br,itaparica,0,19.000
+LFU,37,ro,moldova noua,0,16.900
+LFU,38,ru,novokruchininskiy,0,18.000
+LFU,39,sk,namestovo,0,16.100
+LFU,40,cl,chimbarongo,0,15.500
+LFU,41,be,rouvroy,0,18.200
+LFU,42,nz,rawene,0,16.000
+LFU,43,ru,novosineglazovskiy,0,17.700
+LFU,44,br,itaparica,1,7.400
+LFU,45,ro,draguseni,0,16.100
+LFU,46,us,albuquerque,0,15.000
+LFU,47,ne,dakoro,0,15.900
+LFU,48,co,guatape,0,17.000
+LFU,49,ro,bilbor,0,15.900
+LFU,50,fr,marly-le-roi,0,15.500
+LFU,51,mg,toamasina,0,17.300
+LFU,52,ws,siusega,0,15.500
+LFU,53,de,mombris,0,18.200
+LFU,54,cn,aojiang,0,17.600
+LFU,55,ru,krasnyye tkachi,0,15.100
+LFU,56,ru,elektrougli,0,11.900
+LFU,57,sl,baoma,0,11.900
+LFU,58,ro,sibot,0,12.200
+LFU,59,bh,manama,0,11.800
+LFU,60,sl,baoma,1,2.500
+LFU,61,ru,ladovskaya balka,0,13.500
+LFU,62,ru,guryevsk,0,11.900
+LFU,63,lu,reckange-sur-mess,0,14.100
+LFU,64,ro,sibot,1,3.000
+LFU,65,in,bilaspur,0,40.700
+LFU,66,us,oakdale,0,13.400
+LFU,67,gr,astros,0,12.400
+LFU,68,ua,krasnosilka,0,12.400
+LFU,69,ne,ouallam,0,13.300
+LFU,70,mx,jalpa,0,12.500
+LFU,71,ru,bolshevik,0,13.000
+LFU,72,lu,folschette,0,12.500
+LFU,73,de,holzwickede,0,12.600
+LFU,74,cn,xuchang,0,12.100
+LFU,75,mx,arteaga,0,12.700
+LFU,76,in,raxaul,0,12.300
+LFU,77,cu,jovellanos,0,12.600
+LFU,78,us,kernersville,0,12.300
+LFU,79,gt,san antonio huista,0,13.800
+LFU,80,pk,jam sahib,0,17.500
+LFU,81,bh,manama,0,26.500
+LFU,82,ws,siusega,0,18.100
+LFU,83,in,bilaspur,0,15.700
+LFU,84,gr,astros,0,15.200
+LFU,85,co,guatape,0,16.000
+LFU,86,ru,guryevsk,0,13.400
+LFU,87,in,anakapalle,0,11.700
+LFU,88,de,wesel,0,10.800
+LFU,89,mg,toamasina,0,9.600
+LFU,90,ro,dorna,0,8.500
+LFU,91,es,almeria,0,8.200
+LFU,92,gb,tiverton,0,8.900
+LFU,93,jp,yorii,0,8.900
+LFU,94,re,saint-paul,0,8.300
+LFU,95,nz,rawene,0,8.300
+LFU,96,ro,baraolt,0,8.200
+LFU,97,br,pirapora do bom jesus,0,10.300
+LFU,98,br,eirunepe,0,8.500
+LFU,99,re,saint-paul,1,1.800
+LFU,100,cn,aojiang,0,8.200
+LFU,101,mt,gzira,0,8.600
+LFU,102,mt,gzira,1,1.700
+LFU,103,in,alirajpur,0,9.000
+LFU,104,ee,kohtla-jarve,0,9.000
+LFU,105,us,temple,0,8.900
+LFU,106,de,holzwickede,0,7.700
+LFU,107,in,bilaspur,0,7.400
+LFU,108,br,massaranduba,0,8.200
+LFU,109,bt,tongsa,0,8.400
+LFU,110,in,jansath,0,7.900
+LFU,111,tw,hsichih,0,8.800
+LFU,112,ua,horodnytsya,0,7.900
+LFU,113,ru,kangly,0,8.300
+LFU,114,ph,cabatuan,0,8.800
+LFU,115,mx,jalpa,0,8.000
+LFU,116,no,grong,0,11.300
+LFU,117,gd,gouyave,0,10.700
+LFU,118,sk,namestovo,0,10.300
+LFU,119,mu,verdun,0,10.200
+LFU,120,in,daosa,0,10.700
+LFU,121,us,kernersville,0,10.600
+LFU,122,th,pa daet,0,10.000
+LFU,123,jp,yorii,0,10.600
+LFU,124,in,chidambaram,0,9.900
+LFU,125,es,benicarlo,0,10.200
+LFU,126,np,janakpur,0,10.100
+LFU,127,ca,golden,0,11.000
+LFU,128,ca,saint-hyacinthe,0,11.600
+LFU,129,us,hamden,0,10.300
+LFU,130,ca,saint-hyacinthe,1,2.100
+LFU,131,ro,furculesti,0,11.400
+LFU,132,tw,hsichih,0,10.300
+LFU,133,ru,mosta,0,11.100
+LFU,134,ro,comlosu mare,0,10.800
+LFU,135,cl,chimbarongo,0,10.100
+LFU,136,cn,shenzhen,0,10.100
+LFU,137,cl,chimbarongo,1,2.600
+LFU,138,gb,dufftown,0,10.400
+LFU,139,br,itaparica,1,4.600
+LFU,140,de,bovenden,0,11.600
+LFU,141,us,magna,0,17.800
+LFU,142,de,mombris,0,8.800
+LFU,143,ee,kohtla-jarve,0,9.200
+LFU,144,si,polzela,0,9.200
+LFU,145,rs,urosevac,0,11.000
+LFU,146,th,ao luk,0,11.400
+LFU,147,zm,chadiza,0,11.000
+LFU,148,ch,peseux,0,11.000
+LFU,149,th,ao luk,1,2.100
+LFU,150,ne,dakoro,0,11.200
+LFU,151,co,silvania,0,12.200
+LFU,152,us,lady lake,0,11.600
+LFU,153,gr,nea stira,0,11.300
+LFU,154,hu,mezokovesd,0,11.900
+LFU,155,hu,tompa,0,11.000
+LFU,156,pl,swietochlowice,0,13.100
+LFU,157,th,ao luk,1,2.100
+LFU,158,si,polzela,0,9.900
+LFU,159,co,tasco,0,35.400
+LFU,160,in,alirajpur,0,12.200
+LFU,161,th,ao luk,1,4.500
+LFU,162,zm,chadiza,0,10.400
+LFU,163,lu,folschette,0,12.600
+LFU,164,ru,dzerzhinskiy,0,11.900
+LFU,165,br,candelaria,0,12.000
+LFU,166,es,sant cugat del valles,0,11.900
+LFU,167,sl,baoma,1,2.400
+LFU,168,us,los alamitos,0,11.000
+LFU,169,be,oudenburg,0,11.800
+LFU,170,ph,bilad,0,11.100
+LFU,171,ro,furculesti,0,10.600
+LFU,172,ro,furculesti,1,1.900
+LFU,173,ve,santa teresa,0,13.000
+LFU,174,lt,dusetos,0,11.700
+LFU,175,co,guatape,0,12.700
+LFU,176,ca,saint-hyacinthe,1,2.900
+LFU,177,ro,cochirleanca,0,11.800
+LFU,178,pe,puerto maldonado,0,14.600
+LFU,179,in,samana,0,12.200
+LFU,180,in,rudarpur,0,12.300
+LFU,181,bh,manama,0,11.900
+LFU,182,us,pierre,0,12.000
+LFU,183,in,bilaspur,0,12.200
+LFU,184,ba,donja orahovica,0,13.200
+LFU,185,al,bajram curri,0,14.100
+LFU,186,cz,jablunkov,0,11.700
+LFU,187,us,hamden,0,9.700
+LFU,188,in,muktsar,0,9.900
+LFU,189,es,almeria,0,9.600
+LFU,190,zm,chadiza,0,9.000
+LFU,191,cn,qingyuan,0,9.200
+LFU,192,us,albuquerque,0,9.100
+LFU,193,cz,jablunkov,0,8.500
+LFU,194,ee,kohtla-jarve,0,9.700
+LFU,195,id,plered,0,10.300
+LFU,196,de,mombris,0,9.400
+LFU,197,cn,qingyuan,0,8.700
+LFU,198,sa,sabya,0,11.500
+LFU,199,ca,saint-germain-de-grantham,0,11.000
+LFU,200,er,ginda,0,10.400
+LFU,201,in,shertallai,0,9.300
+LFU,202,ru,krasnyye tkachi,0,10.500
+LFU,203,es,almeria,0,9.300
+LFU,204,in,daosa,0,12.000
+LFU,205,cn,zhaozhou,0,23.100
+LFU,206,lk,battaramulla,0,13.600
+LFU,207,ro,giurgita,0,12.600
+LFU,208,ru,dzerzhinskiy,0,21.900
+LFU,209,lu,beidweiler,0,13.800
+LFU,210,us,bell gardens,0,24.100
+LFU,211,ru,bolshevik,0,13.100
+LFU,212,sl,baoma,1,2.800
+LFU,213,pe,oyotun,0,22.400
+LFU,214,in,shertallai,0,17.100
+LFU,215,sl,baoma,1,6.800
+LFU,216,mx,jalpa,0,22.600
+LFU,217,in,daosa,0,19.200
+LFU,218,us,los alamitos,0,24.000
+LFU,219,co,guatape,0,13.300
+LFU,220,us,magna,0,20.400
+LFU,221,in,jansath,0,16.600
+LFU,222,cn,xuchang,0,21.800
+LFU,223,us,dothan,0,14.000
+LFU,224,mg,toamasina,0,13.000
+LFU,225,no,grong,0,12.900
+LFU,226,gb,tiverton,0,13.800
+LFU,227,sa,sabya,0,13.400
+LFU,228,mx,tuxtla,0,13.500
+LFU,229,us,dothan,0,11.600
+LFU,230,es,almeria,0,12.200
+LFU,231,mg,toamasina,0,11.400
+LFU,232,si,polzela,0,12.900
+LFU,233,in,daosa,0,12.300
+LFU,234,ru,tselinnoye,0,21.600
+LFU,235,fr,gentilly,0,12.900
+LFU,236,be,oudenburg,0,11.800
+LFU,237,in,daosa,0,10.700
+LFU,238,br,nova granada,0,11.800
+LFU,239,th,pa daet,0,11.800
+LFU,240,be,oudenburg,0,10.900
+LFU,241,ne,dakoro,0,12.100
+LFU,242,sk,namestovo,0,12.800
+LFU,243,us,south lake tahoe,0,14.200
+LFU,244,co,alto baudo,0,13.700
+LFU,245,be,oudenburg,0,11.400
+LFU,246,co,tasco,0,12.200
+LFU,247,cz,jablunkov,0,12.300
+LFU,248,jp,yorii,0,12.900
+LFU,249,co,guatape,0,12.000
+LFU,250,us,lady lake,0,12.000
+LFU,251,pt,tavira,0,12.800
+LFU,252,cn,xuchang,0,12.000
+LFU,253,mx,tilzapotla,0,20.900
+LFU,254,ph,bilad,0,14.700
+LFU,255,ne,dakoro,0,10.600
+LFU,256,gr,nea stira,0,14.500
+LFU,257,pl,swietochlowice,0,20.400
+LFU,258,ne,ouallam,0,80.300
+LFU,259,sk,namestovo,0,20.100
+LFU,260,sl,baoma,1,5.900
+LFU,261,in,anakapalle,0,18.400
+LFU,262,ch,wahlern,0,18.400
+LFU,263,pl,polczyn-zdroj,0,19.700
+LFU,264,in,bilaspur,0,18.800
+LFU,265,ro,manastirea homorului,0,19.800
+LFU,266,br,bento goncalves,0,34.800
+LFU,267,mx,zapotlanejo,0,20.400
+LFU,268,br,eirunepe,0,18.800
+LFU,269,pl,polczyn-zdroj,0,20.200
+LFU,270,mu,verdun,0,19.800
+LFU,271,ru,tikhvin,0,17.600
+LFU,272,gr,astros,0,18.300
+LFU,273,us,brookfield,0,18.600
+LFU,274,es,sant cugat del valles,0,20.700
+LFU,275,ca,golden,0,20.000
+LFU,276,ne,ouallam,0,17.700
+LFU,277,pk,jam sahib,0,18.300
+LFU,278,us,hamden,0,18.900
+LFU,279,ro,bogdanesti,0,19.900
+LFU,280,us,muskegon heights,0,37.900
+LFU,281,us,south patrick shores,0,30.900
+LFU,282,in,bicholim,0,18.700
+LFU,283,in,daosa,0,18.200
+LFU,284,ru,tikhvin,0,17.500
+LFU,285,br,massaranduba,0,18.000
+LFU,286,mk,vranestica,0,19.700
+LFU,287,mx,san marcos,0,19.300
+LFU,288,ru,komsomolskiy,0,32.700
+LFU,289,ro,lunca,0,21.400
+LFU,290,ru,kostek,0,19.300
+LFU,291,cz,jablunkov,0,17.900
+LFU,292,sa,sabya,0,21.600
+LFU,293,pk,sharqpur,0,19.000
+LFU,294,us,bell gardens,0,18.100
+LFU,295,ne,dakoro,0,35.100
+LFU,296,us,pierre,0,18.800
+LFU,297,in,bilaspur,0,18.300
+LFU,298,in,gharghoda,0,17.300
+LFU,299,ph,san jose,0,18.700
+LFU,300,pe,pacasmayo,0,17.700
+LFU,301,fr,marly-le-roi,0,18.600
+LFU,302,br,nova granada,0,19.100
+LFU,303,pk,kot diji,0,20.700
+LFU,304,in,bhadravati,0,17.400
+LFU,305,ua,kayiry,0,17.900
+LFU,306,in,kotagiri,0,17.600
+LFU,307,hu,tompa,0,18.500
+LFU,308,hu,tompa,1,4.600
+LFU,309,mk,vranestica,0,19.500
+LFU,310,de,kolkwitz,0,19.300
+LFU,311,th,pa daet,0,17.400
+LFU,312,pk,jam sahib,0,20.500
+LFU,313,us,brookfield,0,17.800
+LFU,314,ro,cetatea de balta,0,19.900
+LFU,315,sl,barma,0,19.800
+LFU,316,ru,yelizavetinskaya,0,19.100
+LFU,317,ro,manastirea homorului,0,22.600
+LFU,318,br,tupaciguara,0,19.500
+LFU,319,ro,cetatea de balta,0,18.700
+LFU,320,co,tasco,0,19.200
+LFU,321,fr,gentilly,0,17.200
+LFU,322,th,pa daet,0,17.100
+LFU,323,ee,kohtla-jarve,0,19.000
+LFU,324,in,gharghoda,0,17.900
+LFU,325,ch,peseux,0,18.500
+LFU,326,sl,baoma,1,6.100
+LFU,327,al,bajram curri,0,20.700
+LFU,328,mt,gzira,1,4.200
+LFU,329,us,cidra,0,18.500
+LFU,330,es,benicarlo,0,18.200
+LFU,331,sl,baoma,1,5.800
+LFU,332,np,janakpur,0,18.300
+LFU,333,es,villaviciosa,0,18.400
+LFU,334,mx,tuxtla,0,18.600
+LFU,335,br,nova granada,0,17.700
+LFU,336,ph,cabatuan,0,18.400
+LFU,337,ru,bolshevik,0,18.400
+LFU,338,ua,nova kakhovka,0,18.300
+LFU,339,jp,yorii,0,18.100
+LFU,340,us,lady lake,0,17.900
+LFU,341,ve,santa teresa,0,18.900
+LFU,342,cn,shenzhen,0,18.300
+LFU,343,ee,kohtla-jarve,0,19.300
+LFU,344,ru,tikhvin,0,17.600
+LFU,345,th,pa daet,0,18.300
+LFU,346,pl,swietochlowice,0,20.600
+LFU,347,ci,bocanda,0,19.100
+LFU,348,sk,namestovo,0,17.700
+LFU,349,pk,jam sahib,0,17.400
+LFU,350,cn,qingyuan,0,16.600
+LFU,351,us,snohomish,0,18.300
+LFU,352,py,pirayu,0,17.100
+LFU,353,ve,santa teresa,0,16.500
+LFU,354,es,benicarlo,0,16.300
+LFU,355,us,kernersville,0,17.200
+LFU,356,ve,santa teresa,0,17.100
+LFU,357,ro,draguseni,0,18.200
+LFU,358,ba,donja orahovica,0,19.300
+LFU,359,es,benicarlo,0,19.900
+LFU,360,us,wilmington,0,19.800
+LFU,361,us,kernersville,0,17.300
+LFU,362,be,rouvroy,0,17.500
+LFU,363,ch,greifensee,0,18.300
+LFU,364,hn,puerto cortes,0,20.300
+LFU,365,ua,molodizhne,0,21.400
+LFU,366,br,cariacica,0,19.300
+LFU,367,ro,baraolt,0,18.100
+LFU,368,cl,chimbarongo,1,4.400
+LFU,369,cz,jablunkov,0,18.700
+LFU,370,in,shertallai,0,19.100
+LFU,371,ch,peseux,0,17.200
+LFU,372,no,grong,0,17.600
+LFU,373,in,daosa,0,17.100
+LFU,374,de,rottenburg,0,18.200
+LFU,375,us,adrian,0,17.600
+LFU,376,ve,santa teresa,0,16.600
+LFU,377,fr,marly-le-roi,0,17.200
+LFU,378,gy,mabaruma,0,17.800
+LFU,379,sn,ourossogui,0,17.200
+LFU,380,ru,volchikha,0,18.900
+LFU,381,pl,swietochlowice,0,20.100
+LFU,382,ro,dorna,0,55.800
+LFU,383,ru,ishimbay,0,18.500
+LFU,384,id,plered,0,20.000
+LFU,385,ro,baraolt,0,16.900
+LFU,386,us,knoxville,0,18.100
+LFU,387,ee,kohtla-jarve,0,18.100
+LFU,388,hu,szaszvar,0,17.800
+LFU,389,cz,jablunkov,0,18.100
+LFU,390,mt,gzira,1,4.400
+LFU,391,in,kotagiri,0,18.300
+LFU,392,es,benicarlo,0,17.400
+LFU,393,zm,chadiza,0,18.100
+LFU,394,cz,jablunkov,0,16.700
+LFU,395,cm,mbouda,0,17.800
+LFU,396,mx,itzican,0,18.300
+LFU,397,cl,freire,0,18.200
+LFU,398,uz,nurobod,0,17.000
+LFU,399,fi,rauma,0,19.300
+LFU,400,th,ao luk,1,4.600
+LFU,401,cn,shenzhen,0,19.000
+LFU,402,us,lady lake,0,18.400
+LFU,403,ru,ladovskaya balka,0,19.700
+LFU,404,de,mombris,0,20.200
+LFU,405,zm,chadiza,0,19.200
+LFU,406,mg,toamasina,0,19.500
+LFU,407,ua,kayiry,0,18.300
+LFU,408,id,plered,0,19.100
+LFU,409,th,pa daet,0,18.400
+LFU,410,ro,bogdanesti,0,18.700
+LFU,411,ua,horodnytsya,0,18.100
+LFU,412,ru,volchikha,0,17.200
+LFU,413,de,mombris,0,15.700
+LFU,414,pe,puerto maldonado,0,19.600
+LFU,415,ph,san roque,0,18.900
+LFU,416,es,almeria,0,19.300
+LFU,417,sl,mamboma,0,26.400
+LFU,418,de,holzwickede,0,17.800
+LFU,419,de,holzwickede,1,3.800
+LFU,420,ca,saint-germain-de-grantham,0,20.500
+LFU,421,us,albuquerque,0,19.200
+LFU,422,us,temple,0,17.800
+LFU,423,ws,maninoa,0,17.300
+LFU,424,ws,maninoa,1,4.700
+LFU,425,ro,baraolt,0,17.500
+LFU,426,ua,nova kakhovka,0,21.600
+LFU,427,zm,chadiza,0,18.400
+LFU,428,us,lady lake,0,18.100
+LFU,429,jp,yorii,0,18.300
+LFU,430,cl,freire,0,18.300
+LFU,431,gr,nea stira,0,19.000
+LFU,432,mx,arteaga,0,18.700
+LFU,433,cd,likasi,0,17.200
+LFU,434,ru,novokruchininskiy,0,19.500
+LFU,435,cd,likasi,0,18.700
+LFU,436,be,oudenburg,0,19.000
+LFU,437,ca,brandon,0,17.700
+LFU,438,us,northbridge,0,18.900
+LFU,439,in,bilaspur,0,17.600
+LFU,440,my,batu arang,0,17.100
+LFU,441,us,oakdale,0,18.300
+LFU,442,cz,jablunkov,0,17.600
+LFU,443,cz,jablunkov,1,5.100
+LFU,444,br,buri,0,18.900
+LFU,445,jp,yorii,0,18.100
+LFU,446,pe,uchiza,0,17.900
+LFU,447,ch,wahlern,0,17.800
+LFU,448,be,rouvroy,0,53.900
+LFU,449,fi,rauma,0,20.200
+LFU,450,de,rottenburg,0,19.100
+LFU,451,fi,rauma,0,17.200
+LFU,452,ro,dorna,0,18.700
+LFU,453,no,klofta,0,18.200
+LFU,454,ro,baraolt,0,17.700
+LFU,455,kz,serebryansk,0,19.400
+LFU,456,in,bhadravati,0,18.500
+LFU,457,ci,bocanda,0,18.400
+LFU,458,al,bajram curri,0,19.500
+LFU,459,de,rottenburg,0,17.600
+LFU,460,ua,kayiry,0,18.900
+LFU,461,ru,usva,0,18.500
+LFU,462,de,holzwickede,1,3.700
+LFU,463,in,bhadravati,0,18.500
+LFU,464,py,laureles,0,19.400
+LFU,465,co,alto baudo,0,18.900
+LFU,466,co,guatape,0,19.900
+LFU,467,de,holzwickede,1,3.500
+LFU,468,mg,toamasina,0,21.100
+LFU,469,my,batu arang,0,17.600
+LFU,470,ne,dakoro,0,17.800
+LFU,471,ve,punto fijo,0,18.300
+LFU,472,ch,wahlern,0,18.000
+LFU,473,cz,tabor,0,18.300
+LFU,474,il,sheikh dannun,0,19.800
+LFU,475,ee,kohtla-jarve,0,19.800
+LFU,476,fr,gentilly,0,17.300
+LFU,477,co,guatape,0,17.900
+LFU,478,pe,pacasmayo,0,18.100
+LFU,479,id,plered,0,19.200
+LFU,480,in,daosa,0,17.400
+LFU,481,ci,bocanda,0,16.100
+LFU,482,ne,dakoro,0,16.200
+LFU,483,de,obernkirchen,0,18.100
+LFU,484,ro,dorna,0,17.000
+LFU,485,ru,nikolskiy,0,18.200
+LFU,486,hu,mezokovesd,0,19.500
+LFU,487,ru,tselinnoye,0,18.200
+LFU,488,mx,pedro escobedo,0,19.500
+LFU,489,ru,novosineglazovskiy,0,20.000
+LFU,490,hn,puerto cortes,0,20.000
+LFU,491,fi,rauma,0,19.200
+LFU,492,ru,yakovlevka,0,18.600
+LFU,493,hu,szaszvar,0,17.400
+LFU,494,ro,cochirleanca,0,17.200
+LFU,495,ru,volodarskiy,0,16.800
+LFU,496,gr,astros,0,18.200
+LFU,497,tr,kestel,0,35.700
+LFU,498,mx,itzican,0,17.300
+LFU,499,ch,greifensee,0,17.500
+LFU,500,hu,baracska,0,17.000
+LFU,501,us,lady lake,0,17.500
+LFU,502,mx,tuxtla chico,0,17.400
+LFU,503,ci,bocanda,0,17.500
+LFU,504,de,obernkirchen,0,17.400
+LFU,505,sl,baoma,1,5.900
+LFU,506,ru,tikhvin,0,20.100
+LFU,507,ru,volodarskiy,0,17.500
+LFU,508,cl,chimbarongo,1,4.200
+LFU,509,in,samana,0,18.100
+LFU,510,gr,nea stira,0,17.900
+LFU,511,il,sheikh dannun,0,18.500
+LFU,512,bg,gurkovo,0,19.200
+LFU,513,ph,santa maria,0,17.200
+LFU,514,in,daosa,0,16.400
+LFU,515,de,wesel,0,18.500
+LFU,516,ca,saint-donat-de-montcalm,0,20.100
+LFU,517,sl,mamboma,0,19.100
+LFU,518,er,ginda,0,18.900
+LFU,519,ve,zaraza,0,21.700
+LFU,520,cl,chimbarongo,1,4.100
+LFU,521,ch,wahlern,0,17.800
+LFU,522,in,bilaspur,0,17.300
+LFU,523,ro,baraolt,0,18.600
+LFU,524,lu,beidweiler,0,20.200
+LFU,525,co,guatape,0,16.800
+LFU,526,ba,donja orahovica,0,15.300
+LFU,527,ro,otopeni,0,14.400
+LFU,528,br,itaparica,1,3.300
+LFU,529,in,bilaspur,0,12.900
+LFU,530,ke,bungoma,0,14.300
+LFU,531,ro,baraolt,0,12.800
+LFU,532,us,caldwell,0,14.100
+LFU,533,ne,ouallam,0,13.600
+LFU,534,ua,kayiry,0,14.100
+LFU,535,us,northbridge,0,13.900
+LFU,536,jp,yorii,0,13.600
+LFU,537,ru,tselinnoye,0,13.500
+LFU,538,ru,tikhvin,0,12.600
+LFU,539,us,watervliet,0,13.100
+LFU,540,ro,balanesti,0,13.600
+LFU,541,pk,jam sahib,0,14.400
+LFU,542,de,selm,0,13.500
+LFU,543,nz,halcombe,0,14.100
+LFU,544,pe,pacasmayo,0,17.400
+LFU,545,sk,namestovo,0,18.800
+LFU,546,mx,san marcos,0,34.200
+LFU,547,bo,eucaliptus,0,19.300
+LFU,548,hu,mezokovesd,0,19.600
+LFU,549,ci,bocanda,0,17.500
+LFU,550,ph,santa lucia,0,18.500
+LFU,551,it,cividale del friuli,0,19.500
+LFU,552,fr,boulogne-billancourt,0,21.600
+LFU,553,us,pierre,0,18.700
+LFU,554,br,atalaia,0,17.500
+LFU,555,ne,dakoro,0,30.500
+LFU,556,ch,wahlern,0,18.600
+LFU,557,ro,dorna,0,19.000
+LFU,558,ru,krasnyye tkachi,0,21.000
+LFU,559,br,eirunepe,0,19.600
+LFU,560,uy,nueva helvecia,0,18.000
+LFU,561,no,vikevag,0,18.200
+LFU,562,gb,dufftown,0,16.900
+LFU,563,mx,zapotlanejo,0,17.400
+LFU,564,ru,ladovskaya balka,0,19.500
+LFU,565,ne,dakoro,0,17.100
+LFU,566,us,hamden,0,17.900
+LFU,567,cz,jablunkov,1,4.100
+LFU,568,br,nova granada,0,17.300
+LFU,569,ru,yelizavetinskaya,0,19.000
+LFU,570,mx,mexicaltzingo,0,19.900
+LFU,571,gb,lerwick,0,18.100
+LFU,572,cl,chimbarongo,1,4.900
+LFU,573,ro,baraolt,0,18.300
+LFU,574,ve,zaraza,0,17.700
+LFU,575,us,knoxville,0,17.700
+LFU,576,ru,tselinnoye,0,16.600
+LFU,577,be,rouvroy,0,14.000
+LFU,578,ph,santa maria,0,14.600
+LFU,579,ru,zyryanskoye,0,13.900
+LFU,580,in,kotagiri,0,13.700
+LFU,581,ch,greifensee,0,13.300
+LFU,582,ro,baraolt,0,13.400
+LFU,583,ve,santa teresa,0,13.200
+LFU,584,fr,gentilly,0,13.300
+LFU,585,ca,saint-hyacinthe,1,4.400
+LFU,586,gb,christchurch,0,20.800
+LFU,587,ca,saint-germain-de-grantham,0,16.300
+LFU,588,in,daosa,0,14.700
+LFU,589,in,bicholim,0,13.200
+LFU,590,zm,chadiza,0,14.200
+LFU,591,tz,usagara,0,13.700
+LFU,592,mx,arteaga,0,13.700
+LFU,593,th,ao luk,1,3.100
+LFU,594,us,pierre,0,13.600
+LFU,595,in,bicholim,0,12.800
+LFU,596,ru,kostek,0,14.200
+LFU,597,zm,chadiza,0,12.700
+LFU,598,ru,tselinnoye,0,12.400
+LFU,599,br,buri,0,16.000
+LFU,600,ch,peseux,0,17.700
+LFU,601,hu,mezokovesd,0,17.000
+LFU,602,br,itaparica,1,4.000
+LFU,603,ro,dragalina,0,13.800
+LFU,604,pe,pacasmayo,0,17.500
+LFU,605,ca,saint-donat-de-montcalm,0,17.700
+LFU,606,sn,ourossogui,0,14.400
+LFU,607,fr,boulogne-billancourt,0,14.900
+LFU,608,in,kotagiri,0,13.500
+LFU,609,my,batu arang,0,12.800
+LFU,610,gb,kinglassie,0,13.300
+LFU,611,bo,eucaliptus,0,13.500
+LFU,612,ru,ladovskaya balka,0,14.600
+LFU,613,cn,aojiang,0,14.800
+LFU,614,ph,la paz,0,13.900
+LFU,615,ph,cabatuan,0,17.000
+LFU,616,cn,aojiang,0,17.300
+LFU,617,mx,itzican,0,13.900
+LFU,618,br,bento goncalves,0,15.100
+LFU,619,gr,astros,0,14.600
+LFU,620,ro,bogdanesti,0,13.300
+LFU,621,np,janakpur,0,13.100
+LFU,622,be,oudenburg,0,14.000
+LFU,623,ws,maninoa,1,3.600
+LFU,624,br,massaranduba,0,13.100
+LFU,625,re,saint-paul,0,13.400
+LFU,626,ru,bolshevik,0,17.600
+LFU,627,th,ao luk,1,4.300
+LFU,628,pa,la herradura,0,15.900
+LFU,629,cm,mbouda,0,17.500
+LFU,630,ru,kangly,0,17.400
+LFU,631,in,kotagiri,0,16.000
+LFU,632,tw,hsichih,0,17.600
+LFU,633,it,melito di porto salvo,0,17.300
+LFU,634,us,pierre,0,18.800
+LFU,635,us,hamden,0,18.500
+LFU,636,us,middletown,0,16.000
+LFU,637,si,polzela,0,16.900
+LFU,638,cl,chimbarongo,1,4.900
+LFU,639,ne,dakoro,0,18.200
+LFU,640,sl,barma,0,18.000
+LFU,641,ru,volodarskiy,0,18.200
+LFU,642,fr,marly-le-roi,0,17.400
+LFU,643,br,eirunepe,0,18.200
+LFU,644,es,almeria,0,12.900
+LFU,645,sl,barma,0,9.100
+LFU,646,th,ao luk,1,2.200
+LFU,647,in,daosa,0,9.000
+LFU,648,ru,dzerzhinskiy,0,9.300
+LFU,649,in,bhadravati,0,9.500
+LFU,650,us,magna,0,9.300
+LFU,651,cl,chimbarongo,1,2.500
+LFU,652,ne,dakoro,0,9.000
+LFU,653,br,itaparica,1,3.100
+LFU,654,id,plered,0,10.400
+LFU,655,ua,kayiry,0,9.700
+LFU,656,ua,molodizhne,0,8.900
+LFU,657,sl,barma,0,8.700
+LFU,658,in,gharghoda,0,9.000
+LFU,659,ru,krasnogorskoye,0,9.900
+LFU,660,gr,astros,0,9.300
+LFU,661,nl,boxmeer,0,9.600
+LFU,662,tr,kestel,0,9.700
+LFU,663,ch,greifensee,0,8.700
+LFU,664,br,itaparica,1,3.100
+LFU,665,fr,marly-le-roi,0,9.200
+LFU,666,co,floresta,0,9.000
+LFU,667,es,almeria,0,8.900
+LFU,668,cz,jablunkov,1,1.900
+LFU,669,tw,hsichih,0,8.900
+LFU,670,gr,astros,0,8.500
+LFU,671,be,oudenburg,0,8.800
+LFU,672,br,nova granada,0,8.900
+LFU,673,es,almeria,0,8.900
+LFU,674,ro,bogdanesti,0,8.600
+LFU,675,mg,toamasina,0,9.800
+LFU,676,ua,nova kakhovka,0,10.100
+LFU,677,de,tostedt,0,10.200
+LFU,678,ro,baraolt,0,8.800
+LFU,679,th,ao luk,1,1.700
+LFU,680,ba,donja orahovica,0,10.700
+LFU,681,us,wilmington,0,10.200
+LFU,682,br,buri,0,8.800
+LFU,683,ru,yelizavetinskaya,0,9.900
+LFU,684,br,campo grande,0,9.700
+LFU,685,mg,toamasina,0,9.100
+LFU,686,in,bicholim,0,8.700
+LFU,687,us,pierre,0,9.000
+LFU,688,ru,bolshevik,0,8.900
+LFU,689,us,oakdale,0,9.600
+LFU,690,us,watervliet,0,9.100
+LFU,691,gr,astros,0,28.400
+LFU,692,hn,salama,0,12.600
+LFU,693,cn,qingyuan,0,15.800
+LFU,694,ne,dakoro,0,11.200
+LFU,695,pl,swietochlowice,0,13.600
+LFU,696,ru,guryevsk,0,12.300
+LFU,697,ro,bogdanesti,0,10.800
+LFU,698,cl,chimbarongo,1,3.300
+LFU,699,ph,anibongan,0,12.300
+LFU,700,pe,puerto maldonado,0,13.800
+LFU,701,br,massaranduba,0,12.100
+LFU,702,lu,reckange-sur-mess,0,10.700
+LFU,703,ci,bocanda,0,9.900
+LFU,704,ru,novokruchininskiy,0,11.600
+LFU,705,ee,kohtla-jarve,0,14.300
+LFU,706,ca,saint-hyacinthe,1,3.500
+LFU,707,pt,cartaxo,0,13.800
+LFU,708,mx,mexicaltzingo,0,13.200
+LFU,709,ph,estancia,0,12.900
+LFU,710,ca,saint-hyacinthe,1,3.300
+LFU,711,co,tasco,0,11.800
+LFU,712,ph,la paz,0,11.400
+LFU,713,gb,kinglassie,0,12.500
+LFU,714,ne,ouallam,0,12.000
+LFU,715,es,almeria,0,12.100
+LFU,716,mu,verdun,0,12.100
+LFU,717,gb,brighouse,0,12.300
+LFU,718,nl,boxmeer,0,12.700
+LFU,719,us,pierre,0,11.200
+LFU,720,ca,saskatoon,0,12.300
+LFU,721,us,sumter,0,11.800
+LFU,722,be,oudenburg,0,11.500
+LFU,723,ci,bocanda,0,11.500
+LFU,724,si,polzela,0,13.400
+LFU,725,ve,santa teresa,0,13.200
+LFU,726,fr,gentilly,0,12.000
+LFU,727,de,mombris,0,11.700
+LFU,728,gt,san antonio huista,0,13.500
+LFU,729,ro,comlosu mare,0,12.500
+LFU,730,cz,jablunkov,1,3.300
+LFU,731,br,tupaciguara,0,12.100
+LFU,732,ca,saint-donat-de-montcalm,0,14.000
+LFU,733,th,pa daet,0,12.800
+LFU,734,cl,chimbarongo,1,3.500
+LFU,735,de,wesel,0,12.900
+LFU,736,sk,namestovo,0,14.200
+LFU,737,gt,san antonio huista,0,13.500
+LFU,738,ru,zyryanskoye,0,14.000
+LFU,739,co,guatape,0,10.100
+LFU,740,br,candelaria,0,9.500
+LFU,741,th,pa daet,0,8.800
+LFU,742,in,bilaspur,0,9.700
+LFU,743,in,alirajpur,0,10.100
+LFU,744,br,nova granada,0,8.900
+LFU,745,ro,comlosu mare,0,8.900
+LFU,746,mk,vranestica,0,9.600
+LFU,747,ne,ouallam,0,9.200
+LFU,748,mx,mexicaltzingo,0,9.600
+LFU,749,si,polzela,0,9.400
+LFU,750,ca,saint-germain-de-grantham,0,10.800
+FIFO,1,co,guatape,0,8.100
+FIFO,2,gr,nea stira,0,10.100
+FIFO,3,ru,elektrougli,0,4.900
+FIFO,4,ne,dakoro,0,4.700
+FIFO,5,gy,mabaruma,0,5.300
+FIFO,6,in,samana,0,5.500
+FIFO,7,ca,bonaventure,0,5.200
+FIFO,8,de,kolkwitz,0,5.600
+FIFO,9,ro,bilbor,0,5.900
+FIFO,10,cz,jablunkov,0,6.000
+FIFO,11,bh,manama,0,9.300
+FIFO,12,ca,saint-hyacinthe,0,9.500
+FIFO,13,fr,marly-le-roi,0,9.700
+FIFO,14,si,polzela,0,9.600
+FIFO,15,us,snohomish,0,8.400
+FIFO,16,mx,itzican,0,10.200
+FIFO,17,mx,tuxtla chico,0,9.200
+FIFO,18,ca,saint-donat-de-montcalm,0,8.100
+FIFO,19,ve,punto fijo,0,7.400
+FIFO,20,re,saint-paul,0,7.900
+FIFO,21,in,samana,0,7.100
+FIFO,22,it,melito di porto salvo,0,8.600
+FIFO,23,us,albuquerque,0,7.400
+FIFO,24,th,pa daet,0,7.100
+FIFO,25,cn,qingyuan,0,7.200
+FIFO,26,ca,saint-germain-de-grantham,0,7.800
+FIFO,27,ws,maninoa,0,7.900
+FIFO,28,es,almeria,0,8.800
+FIFO,29,cl,chimbarongo,0,7.700
+FIFO,30,es,benicarlo,0,7.200
+FIFO,31,ua,nova kakhovka,0,8.100
+FIFO,32,mg,toamasina,0,8.200
+FIFO,33,ru,nikolskiy,0,7.500
+FIFO,34,us,wilmington,0,8.200
+FIFO,35,zm,chadiza,0,7.900
+FIFO,36,br,itaparica,0,8.400
+FIFO,37,ro,moldova noua,0,7.700
+FIFO,38,ru,novokruchininskiy,0,8.200
+FIFO,39,sk,namestovo,0,7.400
+FIFO,40,cl,chimbarongo,0,7.000
+FIFO,41,be,rouvroy,0,8.200
+FIFO,42,nz,rawene,0,7.400
+FIFO,43,ru,novosineglazovskiy,0,8.400
+FIFO,44,br,itaparica,1,1.000
+FIFO,45,ro,draguseni,0,7.700
+FIFO,46,us,albuquerque,0,6.800
+FIFO,47,ne,dakoro,0,7.100
+FIFO,48,co,guatape,0,7.000
+FIFO,49,ro,bilbor,0,7.800
+FIFO,50,fr,marly-le-roi,0,6.700
+FIFO,51,mg,toamasina,0,7.100
+FIFO,52,ws,siusega,0,7.300
+FIFO,53,de,mombris,0,7.300
+FIFO,54,cn,aojiang,0,8.100
+FIFO,55,ru,krasnyye tkachi,0,7.500
+FIFO,56,ru,elektrougli,0,6.900
+FIFO,57,sl,baoma,0,7.200
+FIFO,58,ro,sibot,0,7.300
+FIFO,59,bh,manama,0,7.200
+FIFO,60,sl,baoma,1,0.500
+FIFO,61,ru,ladovskaya balka,0,8.300
+FIFO,62,ru,guryevsk,0,7.100
+FIFO,63,lu,reckange-sur-mess,0,8.300
+FIFO,64,ro,sibot,1,1.000
+FIFO,65,in,bilaspur,0,6.800
+FIFO,66,us,oakdale,0,7.600
+FIFO,67,gr,astros,0,7.900
+FIFO,68,ua,krasnosilka,0,7.200
+FIFO,69,ne,ouallam,0,6.700
+FIFO,70,mx,jalpa,0,9.400
+FIFO,71,ru,bolshevik,0,9.800
+FIFO,72,lu,folschette,0,10.300
+FIFO,73,de,holzwickede,0,9.800
+FIFO,74,cn,xuchang,0,10.000
+FIFO,75,mx,arteaga,0,9.900
+FIFO,76,in,raxaul,0,9.500
+FIFO,77,cu,jovellanos,0,10.200
+FIFO,78,us,kernersville,0,10.000
+FIFO,79,gt,san antonio huista,0,10.100
+FIFO,80,pk,jam sahib,0,8.400
+FIFO,81,bh,manama,0,7.100
+FIFO,82,ws,siusega,0,7.100
+FIFO,83,in,bilaspur,0,6.700
+FIFO,84,gr,astros,0,7.000
+FIFO,85,co,guatape,0,7.200
+FIFO,86,ru,guryevsk,0,6.800
+FIFO,87,in,anakapalle,0,7.200
+FIFO,88,de,wesel,0,7.200
+FIFO,89,mg,toamasina,0,7.900
+FIFO,90,ro,dorna,0,7.400
+FIFO,91,es,almeria,0,7.300
+FIFO,92,gb,tiverton,0,7.700
+FIFO,93,jp,yorii,0,7.800
+FIFO,94,re,saint-paul,0,7.200
+FIFO,95,nz,rawene,0,6.900
+FIFO,96,ro,baraolt,0,7.200
+FIFO,97,br,pirapora do bom jesus,0,8.500
+FIFO,98,br,eirunepe,0,7.200
+FIFO,99,re,saint-paul,1,1.000
+FIFO,100,cn,aojiang,0,7.100
+FIFO,101,mt,gzira,0,7.600
+FIFO,102,mt,gzira,1,0.500
+FIFO,103,in,alirajpur,0,7.700
+FIFO,104,ee,kohtla-jarve,0,7.900
+FIFO,105,us,temple,0,7.400
+FIFO,106,de,holzwickede,0,7.000
+FIFO,107,in,bilaspur,0,7.000
+FIFO,108,br,massaranduba,0,7.700
+FIFO,109,bt,tongsa,0,8.300
+FIFO,110,in,jansath,0,7.400
+FIFO,111,tw,hsichih,0,7.900
+FIFO,112,ua,horodnytsya,0,7.400
+FIFO,113,ru,kangly,0,7.500
+FIFO,114,ph,cabatuan,0,7.600
+FIFO,115,mx,jalpa,0,6.900
+FIFO,116,no,grong,0,7.200
+FIFO,117,gd,gouyave,0,7.900
+FIFO,118,sk,namestovo,0,7.100
+FIFO,119,mu,verdun,0,7.600
+FIFO,120,in,daosa,0,7.700
+FIFO,121,us,kernersville,0,6.800
+FIFO,122,th,pa daet,0,9.600
+FIFO,123,jp,yorii,0,8.600
+FIFO,124,in,chidambaram,0,9.400
+FIFO,125,es,benicarlo,0,8.600
+FIFO,126,np,janakpur,0,9.100
+FIFO,127,ca,golden,0,9.400
+FIFO,128,ca,saint-hyacinthe,0,9.400
+FIFO,129,us,hamden,0,9.600
+FIFO,130,ca,saint-hyacinthe,1,0.500
+FIFO,131,ro,furculesti,0,10.200
+FIFO,132,tw,hsichih,0,9.900
+FIFO,133,ru,mosta,0,10.000
+FIFO,134,ro,comlosu mare,0,9.700
+FIFO,135,cl,chimbarongo,0,9.500
+FIFO,136,cn,shenzhen,0,9.700
+FIFO,137,cl,chimbarongo,1,0.900
+FIFO,138,gb,dufftown,0,10.100
+FIFO,139,br,itaparica,0,10.300
+FIFO,140,de,bovenden,0,11.200
+FIFO,141,us,magna,0,10.200
+FIFO,142,de,mombris,0,10.100
+FIFO,143,ee,kohtla-jarve,0,10.300
+FIFO,144,si,polzela,0,10.400
+FIFO,145,rs,urosevac,0,9.300
+FIFO,146,th,ao luk,0,9.500
+FIFO,147,zm,chadiza,0,10.500
+FIFO,148,ch,peseux,0,10.400
+FIFO,149,th,ao luk,1,0.600
+FIFO,150,ne,dakoro,0,10.100
+FIFO,151,co,silvania,0,10.800
+FIFO,152,us,lady lake,0,10.700
+FIFO,153,gr,nea stira,0,9.300
+FIFO,154,hu,mezokovesd,0,10.300
+FIFO,155,hu,tompa,0,9.600
+FIFO,156,pl,swietochlowice,0,9.000
+FIFO,157,th,ao luk,1,0.600
+FIFO,158,si,polzela,0,6.800
+FIFO,159,co,tasco,0,7.500
+FIFO,160,in,alirajpur,0,8.100
+FIFO,161,th,ao luk,0,7.000
+FIFO,162,zm,chadiza,0,6.900
+FIFO,163,lu,folschette,0,8.200
+FIFO,164,ru,dzerzhinskiy,0,7.500
+FIFO,165,br,candelaria,0,7.700
+FIFO,166,es,sant cugat del valles,0,8.600
+FIFO,167,sl,baoma,0,8.200
+FIFO,168,us,los alamitos,0,7.500
+FIFO,169,be,oudenburg,0,7.600
+FIFO,170,ph,bilad,0,7.900
+FIFO,171,ro,furculesti,0,9.400
+FIFO,172,ro,furculesti,1,1.200
+FIFO,173,ve,santa teresa,0,9.800
+FIFO,174,lt,dusetos,0,9.300
+FIFO,175,co,guatape,0,8.600
+FIFO,176,ca,saint-hyacinthe,0,9.500
+FIFO,177,ro,cochirleanca,0,9.800
+FIFO,178,pe,puerto maldonado,0,10.900
+FIFO,179,in,samana,0,8.600
+FIFO,180,in,rudarpur,0,8.800
+FIFO,181,bh,manama,0,8.800
+FIFO,182,us,pierre,0,10.000
+FIFO,183,in,bilaspur,0,9.200
+FIFO,184,ba,donja orahovica,0,10.800
+FIFO,185,al,bajram curri,0,11.100
+FIFO,186,cz,jablunkov,0,7.800
+FIFO,187,us,hamden,0,7.400
+FIFO,188,in,muktsar,0,10.900
+FIFO,189,es,almeria,0,9.500
+FIFO,190,zm,chadiza,0,9.500
+FIFO,191,cn,qingyuan,0,9.800
+FIFO,192,us,albuquerque,0,9.000
+FIFO,193,cz,jablunkov,1,0.900
+FIFO,194,ee,kohtla-jarve,0,9.900
+FIFO,195,id,plered,0,17.500
+FIFO,196,de,mombris,0,12.500
+FIFO,197,cn,qingyuan,1,1.000
+FIFO,198,sa,sabya,0,9.800
+FIFO,199,ca,saint-germain-de-grantham,0,9.100
+FIFO,200,er,ginda,0,7.700
+FIFO,201,in,shertallai,0,7.100
+FIFO,202,ru,krasnyye tkachi,0,7.400
+FIFO,203,es,almeria,0,6.900
+FIFO,204,in,daosa,0,7.000
+FIFO,205,cn,zhaozhou,0,6.700
+FIFO,206,lk,battaramulla,0,7.500
+FIFO,207,ro,giurgita,0,7.400
+FIFO,208,ru,dzerzhinskiy,0,33.900
+FIFO,209,lu,beidweiler,0,11.700
+FIFO,210,us,bell gardens,0,10.600
+FIFO,211,ru,bolshevik,0,8.800
+FIFO,212,sl,baoma,0,9.600
+FIFO,213,pe,oyotun,0,9.100
+FIFO,214,in,shertallai,0,9.400
+FIFO,215,sl,baoma,1,0.900
+FIFO,216,mx,jalpa,0,9.800
+FIFO,217,in,daosa,0,10.000
+FIFO,218,us,los alamitos,0,7.500
+FIFO,219,co,guatape,0,7.900
+FIFO,220,us,magna,0,7.600
+FIFO,221,in,jansath,0,7.400
+FIFO,222,cn,xuchang,0,7.700
+FIFO,223,us,dothan,0,8.100
+FIFO,224,mg,toamasina,0,7.900
+FIFO,225,no,grong,0,8.400
+FIFO,226,gb,tiverton,0,8.000
+FIFO,227,sa,sabya,0,8.800
+FIFO,228,mx,tuxtla,0,8.000
+FIFO,229,us,dothan,1,1.000
+FIFO,230,es,almeria,0,10.100
+FIFO,231,mg,toamasina,1,0.800
+FIFO,232,si,polzela,0,10.400
+FIFO,233,in,daosa,0,9.400
+FIFO,234,ru,tselinnoye,0,10.200
+FIFO,235,fr,gentilly,0,8.300
+FIFO,236,be,oudenburg,0,8.000
+FIFO,237,in,daosa,1,0.600
+FIFO,238,br,nova granada,0,7.800
+FIFO,239,th,pa daet,0,7.700
+FIFO,240,be,oudenburg,1,0.400
+FIFO,241,ne,dakoro,0,7.800
+FIFO,242,sk,namestovo,0,9.900
+FIFO,243,us,south lake tahoe,0,10.600
+FIFO,244,co,alto baudo,0,10.300
+FIFO,245,be,oudenburg,1,0.700
+FIFO,246,co,tasco,0,10.200
+FIFO,247,cz,jablunkov,0,10.200
+FIFO,248,jp,yorii,0,9.800
+FIFO,249,co,guatape,0,8.700
+FIFO,250,us,lady lake,0,10.200
+FIFO,251,pt,tavira,0,7.900
+FIFO,252,cn,xuchang,0,7.000
+FIFO,253,mx,tilzapotla,0,7.600
+FIFO,254,ph,bilad,0,9.100
+FIFO,255,ne,dakoro,0,7.200
+FIFO,256,gr,nea stira,0,8.200
+FIFO,257,pl,swietochlowice,0,9.000
+FIFO,258,ne,ouallam,0,7.500
+FIFO,259,sk,namestovo,0,7.400
+FIFO,260,sl,baoma,0,7.300
+FIFO,261,in,anakapalle,0,7.700
+FIFO,262,ch,wahlern,0,7.800
+FIFO,263,pl,polczyn-zdroj,0,7.600
+FIFO,264,in,bilaspur,0,7.300
+FIFO,265,ro,manastirea homorului,0,9.000
+FIFO,266,br,bento goncalves,0,8.700
+FIFO,267,mx,zapotlanejo,0,7.900
+FIFO,268,br,eirunepe,0,7.200
+FIFO,269,pl,polczyn-zdroj,1,1.000
+FIFO,270,mu,verdun,0,7.600
+FIFO,271,ru,tikhvin,0,7.400
+FIFO,272,gr,astros,0,7.500
+FIFO,273,us,brookfield,0,7.200
+FIFO,274,es,sant cugat del valles,0,8.900
+FIFO,275,ca,golden,0,7.600
+FIFO,276,ne,ouallam,0,7.500
+FIFO,277,pk,jam sahib,0,8.300
+FIFO,278,us,hamden,0,7.600
+FIFO,279,ro,bogdanesti,0,7.500
+FIFO,280,us,muskegon heights,0,8.800
+FIFO,281,us,south patrick shores,0,8.400
+FIFO,282,in,bicholim,0,7.300
+FIFO,283,in,daosa,0,7.000
+FIFO,284,ru,tikhvin,0,7.500
+FIFO,285,br,massaranduba,0,7.500
+FIFO,286,mk,vranestica,0,7.800
+FIFO,287,mx,san marcos,0,7.900
+FIFO,288,ru,komsomolskiy,0,8.600
+FIFO,289,ro,lunca,0,10.000
+FIFO,290,ru,kostek,0,12.000
+FIFO,291,cz,jablunkov,0,10.900
+FIFO,292,sa,sabya,0,12.700
+FIFO,293,pk,sharqpur,0,10.500
+FIFO,294,us,bell gardens,0,10.600
+FIFO,295,ne,dakoro,0,10.200
+FIFO,296,us,pierre,0,10.400
+FIFO,297,in,bilaspur,0,10.200
+FIFO,298,in,gharghoda,0,10.700
+FIFO,299,ph,san jose,0,11.300
+FIFO,300,pe,pacasmayo,0,11.500
+FIFO,301,fr,marly-le-roi,0,11.700
+FIFO,302,br,nova granada,0,11.000
+FIFO,303,pk,kot diji,0,11.400
+FIFO,304,in,bhadravati,0,10.600
+FIFO,305,ua,kayiry,0,11.600
+FIFO,306,in,kotagiri,0,10.800
+FIFO,307,hu,tompa,0,10.900
+FIFO,308,hu,tompa,1,0.900
+FIFO,309,mk,vranestica,0,9.900
+FIFO,310,de,kolkwitz,0,11.600
+FIFO,311,th,pa daet,0,11.100
+FIFO,312,pk,jam sahib,0,10.200
+FIFO,313,us,brookfield,0,10.400
+FIFO,314,ro,cetatea de balta,0,12.000
+FIFO,315,sl,barma,0,11.000
+FIFO,316,ru,yelizavetinskaya,0,11.500
+FIFO,317,ro,manastirea homorului,0,11.300
+FIFO,318,br,tupaciguara,0,10.400
+FIFO,319,ro,cetatea de balta,1,1.200
+FIFO,320,co,tasco,0,10.700
+FIFO,321,fr,gentilly,0,10.300
+FIFO,322,th,pa daet,1,1.300
+FIFO,323,ee,kohtla-jarve,0,11.000
+FIFO,324,in,gharghoda,0,10.000
+FIFO,325,ch,peseux,0,10.500
+FIFO,326,sl,baoma,0,11.300
+FIFO,327,al,bajram curri,0,11.800
+FIFO,328,mt,gzira,0,11.400
+FIFO,329,us,cidra,0,11.600
+FIFO,330,es,benicarlo,0,11.500
+FIFO,331,sl,baoma,1,0.900
+FIFO,332,np,janakpur,0,11.000
+FIFO,333,es,villaviciosa,0,10.800
+FIFO,334,mx,tuxtla,0,11.400
+FIFO,335,br,nova granada,0,10.700
+FIFO,336,ph,cabatuan,0,11.200
+FIFO,337,ru,bolshevik,0,10.800
+FIFO,338,ua,nova kakhovka,0,11.900
+FIFO,339,jp,yorii,0,10.400
+FIFO,340,us,lady lake,0,10.200
+FIFO,341,ve,santa teresa,0,11.500
+FIFO,342,cn,shenzhen,0,10.600
+FIFO,343,ee,kohtla-jarve,0,10.900
+FIFO,344,ru,tikhvin,0,10.100
+FIFO,345,th,pa daet,0,10.300
+FIFO,346,pl,swietochlowice,0,11.100
+FIFO,347,ci,bocanda,0,11.000
+FIFO,348,sk,namestovo,0,10.800
+FIFO,349,pk,jam sahib,0,10.600
+FIFO,350,cn,qingyuan,0,10.400
+FIFO,351,us,snohomish,0,11.000
+FIFO,352,py,pirayu,0,15.800
+FIFO,353,ve,santa teresa,0,10.300
+FIFO,354,es,benicarlo,0,11.100
+FIFO,355,us,kernersville,0,10.700
+FIFO,356,ve,santa teresa,1,0.800
+FIFO,357,ro,draguseni,0,13.100
+FIFO,358,ba,donja orahovica,0,12.000
+FIFO,359,es,benicarlo,1,1.300
+FIFO,360,us,wilmington,0,11.500
+FIFO,361,us,kernersville,1,0.800
+FIFO,362,be,rouvroy,0,11.900
+FIFO,363,ch,greifensee,0,11.500
+FIFO,364,hn,puerto cortes,0,11.800
+FIFO,365,ua,molodizhne,0,10.900
+FIFO,366,br,cariacica,0,10.900
+FIFO,367,ro,baraolt,0,11.000
+FIFO,368,cl,chimbarongo,0,10.700
+FIFO,369,cz,jablunkov,0,10.500
+FIFO,370,in,shertallai,0,11.700
+FIFO,371,ch,peseux,0,10.400
+FIFO,372,no,grong,0,10.900
+FIFO,373,in,daosa,0,10.300
+FIFO,374,de,rottenburg,0,12.200
+FIFO,375,us,adrian,0,10.800
+FIFO,376,ve,santa teresa,0,9.900
+FIFO,377,fr,marly-le-roi,0,10.700
+FIFO,378,gy,mabaruma,0,11.300
+FIFO,379,sn,ourossogui,0,10.900
+FIFO,380,ru,volchikha,0,11.000
+FIFO,381,pl,swietochlowice,0,11.000
+FIFO,382,ro,dorna,0,10.900
+FIFO,383,ru,ishimbay,0,13.300
+FIFO,384,id,plered,0,15.200
+FIFO,385,ro,baraolt,0,12.900
+FIFO,386,us,knoxville,0,14.300
+FIFO,387,ee,kohtla-jarve,0,10.800
+FIFO,388,hu,szaszvar,0,11.200
+FIFO,389,cz,jablunkov,0,10.300
+FIFO,390,mt,gzira,0,10.400
+FIFO,391,in,kotagiri,0,11.100
+FIFO,392,es,benicarlo,0,10.700
+FIFO,393,zm,chadiza,0,11.400
+FIFO,394,cz,jablunkov,1,1.000
+FIFO,395,cm,mbouda,0,10.900
+FIFO,396,mx,itzican,0,11.100
+FIFO,397,cl,freire,0,10.600
+FIFO,398,uz,nurobod,0,10.700
+FIFO,399,fi,rauma,0,11.000
+FIFO,400,th,ao luk,0,10.900
+FIFO,401,cn,shenzhen,0,10.400
+FIFO,402,us,lady lake,0,10.300
+FIFO,403,ru,ladovskaya balka,0,11.700
+FIFO,404,de,mombris,0,10.900
+FIFO,405,zm,chadiza,0,10.400
+FIFO,406,mg,toamasina,0,11.600
+FIFO,407,ua,kayiry,0,10.700
+FIFO,408,id,plered,0,11.000
+FIFO,409,th,pa daet,0,10.200
+FIFO,410,ro,bogdanesti,0,10.100
+FIFO,411,ua,horodnytsya,0,10.100
+FIFO,412,ru,volchikha,0,10.000
+FIFO,413,de,mombris,1,1.500
+FIFO,414,pe,puerto maldonado,0,13.500
+FIFO,415,ph,san roque,0,11.200
+FIFO,416,es,almeria,0,10.900
+FIFO,417,sl,mamboma,0,10.900
+FIFO,418,de,holzwickede,0,10.900
+FIFO,419,de,holzwickede,1,0.900
+FIFO,420,ca,saint-germain-de-grantham,0,12.500
+FIFO,421,us,albuquerque,0,11.100
+FIFO,422,us,temple,0,10.100
+FIFO,423,ws,maninoa,0,11.400
+FIFO,424,ws,maninoa,1,1.600
+FIFO,425,ro,baraolt,0,10.700
+FIFO,426,ua,nova kakhovka,0,12.200
+FIFO,427,zm,chadiza,0,10.500
+FIFO,428,us,lady lake,0,9.900
+FIFO,429,jp,yorii,0,10.600
+FIFO,430,cl,freire,0,9.900
+FIFO,431,gr,nea stira,0,12.100
+FIFO,432,mx,arteaga,0,10.600
+FIFO,433,cd,likasi,0,10.800
+FIFO,434,ru,novokruchininskiy,0,12.200
+FIFO,435,cd,likasi,1,1.100
+FIFO,436,be,oudenburg,0,11.200
+FIFO,437,ca,brandon,0,12.000
+FIFO,438,us,northbridge,0,11.100
+FIFO,439,in,bilaspur,0,10.300
+FIFO,440,my,batu arang,0,10.700
+FIFO,441,us,oakdale,0,11.000
+FIFO,442,cz,jablunkov,0,10.000
+FIFO,443,cz,jablunkov,1,0.600
+FIFO,444,br,buri,0,11.300
+FIFO,445,jp,yorii,0,9.900
+FIFO,446,pe,uchiza,0,11.100
+FIFO,447,ch,wahlern,0,10.900
+FIFO,448,be,rouvroy,0,11.100
+FIFO,449,fi,rauma,0,10.300
+FIFO,450,de,rottenburg,0,10.600
+FIFO,451,fi,rauma,1,0.600
+FIFO,452,ro,dorna,0,10.800
+FIFO,453,no,klofta,0,10.900
+FIFO,454,ro,baraolt,0,10.100
+FIFO,455,kz,serebryansk,0,11.400
+FIFO,456,in,bhadravati,0,11.300
+FIFO,457,ci,bocanda,0,10.700
+FIFO,458,al,bajram curri,0,11.600
+FIFO,459,de,rottenburg,1,1.300
+FIFO,460,ua,kayiry,0,10.800
+FIFO,461,ru,usva,0,10.500
+FIFO,462,de,holzwickede,0,10.400
+FIFO,463,in,bhadravati,1,0.600
+FIFO,464,py,laureles,0,10.800
+FIFO,465,co,alto baudo,0,10.900
+FIFO,466,co,guatape,0,11.300
+FIFO,467,de,holzwickede,1,0.900
+FIFO,468,mg,toamasina,0,10.000
+FIFO,469,my,batu arang,0,9.900
+FIFO,470,ne,dakoro,0,10.400
+FIFO,471,ve,punto fijo,0,11.200
+FIFO,472,ch,wahlern,0,10.200
+FIFO,473,cz,tabor,0,10.200
+FIFO,474,il,sheikh dannun,0,10.900
+FIFO,475,ee,kohtla-jarve,0,10.200
+FIFO,476,fr,gentilly,0,10.000
+FIFO,477,co,guatape,1,1.200
+FIFO,478,pe,pacasmayo,0,10.800
+FIFO,479,id,plered,0,10.800
+FIFO,480,in,daosa,0,10.300
+FIFO,481,ci,bocanda,0,10.200
+FIFO,482,ne,dakoro,0,10.400
+FIFO,483,de,obernkirchen,0,11.000
+FIFO,484,ro,dorna,0,10.200
+FIFO,485,ru,nikolskiy,0,11.600
+FIFO,486,hu,mezokovesd,0,10.900
+FIFO,487,ru,tselinnoye,0,13.700
+FIFO,488,mx,pedro escobedo,0,11.800
+FIFO,489,ru,novosineglazovskiy,0,11.600
+FIFO,490,hn,puerto cortes,0,10.900
+FIFO,491,fi,rauma,0,10.300
+FIFO,492,ru,yakovlevka,0,10.900
+FIFO,493,hu,szaszvar,0,9.800
+FIFO,494,ro,cochirleanca,0,10.700
+FIFO,495,ru,volodarskiy,0,10.400
+FIFO,496,gr,astros,0,10.800
+FIFO,497,tr,kestel,0,11.300
+FIFO,498,mx,itzican,0,10.600
+FIFO,499,ch,greifensee,0,11.500
+FIFO,500,hu,baracska,0,11.200
+FIFO,501,us,lady lake,0,10.200
+FIFO,502,mx,tuxtla chico,0,10.800
+FIFO,503,ci,bocanda,0,10.500
+FIFO,504,de,obernkirchen,0,11.000
+FIFO,505,sl,baoma,0,10.200
+FIFO,506,ru,tikhvin,0,10.400
+FIFO,507,ru,volodarskiy,0,10.100
+FIFO,508,cl,chimbarongo,0,10.600
+FIFO,509,in,samana,0,10.800
+FIFO,510,gr,nea stira,0,10.200
+FIFO,511,il,sheikh dannun,0,10.500
+FIFO,512,bg,gurkovo,0,11.300
+FIFO,513,ph,santa maria,0,11.000
+FIFO,514,in,daosa,0,10.000
+FIFO,515,de,wesel,0,10.900
+FIFO,516,ca,saint-donat-de-montcalm,0,12.100
+FIFO,517,sl,mamboma,0,10.600
+FIFO,518,er,ginda,0,11.100
+FIFO,519,ve,zaraza,0,10.500
+FIFO,520,cl,chimbarongo,0,10.200
+FIFO,521,ch,wahlern,0,11.000
+FIFO,522,in,bilaspur,0,9.800
+FIFO,523,ro,baraolt,0,10.200
+FIFO,524,lu,beidweiler,0,11.600
+FIFO,525,co,guatape,0,10.900
+FIFO,526,ba,donja orahovica,0,12.100
+FIFO,527,ro,otopeni,0,11.100
+FIFO,528,br,itaparica,0,10.900
+FIFO,529,in,bilaspur,1,0.800
+FIFO,530,ke,bungoma,0,11.800
+FIFO,531,ro,baraolt,1,1.700
+FIFO,532,us,caldwell,0,10.500
+FIFO,533,ne,ouallam,0,10.900
+FIFO,534,ua,kayiry,0,9.900
+FIFO,535,us,northbridge,0,10.700
+FIFO,536,jp,yorii,0,48.900
+FIFO,537,ru,tselinnoye,0,22.900
+FIFO,538,ru,tikhvin,0,15.500
+FIFO,539,us,watervliet,0,14.000
+FIFO,540,ro,balanesti,0,14.500
+FIFO,541,pk,jam sahib,0,15.100
+FIFO,542,de,selm,0,14.800
+FIFO,543,nz,halcombe,0,13.900
+FIFO,544,pe,pacasmayo,0,13.900
+FIFO,545,sk,namestovo,0,15.700
+FIFO,546,mx,san marcos,0,15.900
+FIFO,547,bo,eucaliptus,0,16.100
+FIFO,548,hu,mezokovesd,0,14.300
+FIFO,549,ci,bocanda,0,13.500
+FIFO,550,ph,santa lucia,0,11.300
+FIFO,551,it,cividale del friuli,0,12.200
+FIFO,552,fr,boulogne-billancourt,0,12.300
+FIFO,553,us,pierre,0,10.500
+FIFO,554,br,atalaia,0,11.400
+FIFO,555,ne,dakoro,0,10.600
+FIFO,556,ch,wahlern,0,10.700
+FIFO,557,ro,dorna,0,10.900
+FIFO,558,ru,krasnyye tkachi,0,12.100
+FIFO,559,br,eirunepe,0,10.700
+FIFO,560,uy,nueva helvecia,0,11.100
+FIFO,561,no,vikevag,0,11.900
+FIFO,562,gb,dufftown,0,12.400
+FIFO,563,mx,zapotlanejo,0,10.600
+FIFO,564,ru,ladovskaya balka,0,11.800
+FIFO,565,ne,dakoro,1,1.800
+FIFO,566,us,hamden,0,14.800
+FIFO,567,cz,jablunkov,0,10.900
+FIFO,568,br,nova granada,0,10.600
+FIFO,569,ru,yelizavetinskaya,0,12.100
+FIFO,570,mx,mexicaltzingo,0,10.800
+FIFO,571,gb,lerwick,0,11.200
+FIFO,572,cl,chimbarongo,0,10.400
+FIFO,573,ro,baraolt,0,10.400
+FIFO,574,ve,zaraza,0,10.500
+FIFO,575,us,knoxville,0,11.600
+FIFO,576,ru,tselinnoye,0,10.200
+FIFO,577,be,rouvroy,0,11.400
+FIFO,578,ph,santa maria,0,10.400
+FIFO,579,ru,zyryanskoye,0,11.500
+FIFO,580,in,kotagiri,0,10.800
+FIFO,581,ch,greifensee,0,10.600
+FIFO,582,ro,baraolt,1,1.400
+FIFO,583,ve,santa teresa,0,10.400
+FIFO,584,fr,gentilly,0,10.600
+FIFO,585,ca,saint-hyacinthe,0,11.700
+FIFO,586,gb,christchurch,0,11.000
+FIFO,587,ca,saint-germain-de-grantham,0,12.000
+FIFO,588,in,daosa,0,10.100
+FIFO,589,in,bicholim,0,10.700
+FIFO,590,zm,chadiza,0,10.300
+FIFO,591,tz,usagara,0,10.700
+FIFO,592,mx,arteaga,0,11.200
+FIFO,593,th,ao luk,0,10.500
+FIFO,594,us,pierre,0,10.200
+FIFO,595,in,bicholim,1,1.300
+FIFO,596,ru,kostek,0,11.700
+FIFO,597,zm,chadiza,1,1.200
+FIFO,598,ru,tselinnoye,0,9.700
+FIFO,599,br,buri,0,11.700
+FIFO,600,ch,peseux,0,10.600
+FIFO,601,hu,mezokovesd,0,10.700
+FIFO,602,br,itaparica,0,10.200
+FIFO,603,ro,dragalina,0,10.600
+FIFO,604,pe,pacasmayo,0,10.500
+FIFO,605,ca,saint-donat-de-montcalm,0,12.000
+FIFO,606,sn,ourossogui,0,11.300
+FIFO,607,fr,boulogne-billancourt,0,11.200
+FIFO,608,in,kotagiri,0,10.400
+FIFO,609,my,batu arang,0,11.100
+FIFO,610,gb,kinglassie,0,11.100
+FIFO,611,bo,eucaliptus,0,11.100
+FIFO,612,ru,ladovskaya balka,0,11.200
+FIFO,613,cn,aojiang,0,10.200
+FIFO,614,ph,la paz,0,11.000
+FIFO,615,ph,cabatuan,0,11.400
+FIFO,616,cn,aojiang,1,0.700
+FIFO,617,mx,itzican,0,10.900
+FIFO,618,br,bento goncalves,0,16.100
+FIFO,619,gr,astros,0,11.000
+FIFO,620,ro,bogdanesti,0,11.100
+FIFO,621,np,janakpur,0,11.100
+FIFO,622,be,oudenburg,0,10.700
+FIFO,623,ws,maninoa,0,11.700
+FIFO,624,br,massaranduba,0,10.500
+FIFO,625,re,saint-paul,0,11.400
+FIFO,626,ru,bolshevik,0,10.600
+FIFO,627,th,ao luk,0,10.700
+FIFO,628,pa,la herradura,0,11.600
+FIFO,629,cm,mbouda,0,11.100
+FIFO,630,ru,kangly,0,11.100
+FIFO,631,in,kotagiri,0,10.200
+FIFO,632,tw,hsichih,0,10.700
+FIFO,633,it,melito di porto salvo,0,11.800
+FIFO,634,us,pierre,0,10.600
+FIFO,635,us,hamden,0,10.700
+FIFO,636,us,middletown,0,10.800
+FIFO,637,si,polzela,0,11.000
+FIFO,638,cl,chimbarongo,0,10.000
+FIFO,639,ne,dakoro,0,10.500
+FIFO,640,sl,barma,0,10.600
+FIFO,641,ru,volodarskiy,0,10.800
+FIFO,642,fr,marly-le-roi,0,10.900
+FIFO,643,br,eirunepe,0,10.900
+FIFO,644,es,almeria,0,11.800
+FIFO,645,sl,barma,1,1.300
+FIFO,646,th,ao luk,0,10.100
+FIFO,647,in,daosa,0,10.400
+FIFO,648,ru,dzerzhinskiy,0,11.400
+FIFO,649,in,bhadravati,0,10.600
+FIFO,650,us,magna,0,10.700
+FIFO,651,cl,chimbarongo,0,10.600
+FIFO,652,ne,dakoro,0,10.400
+FIFO,653,br,itaparica,0,10.500
+FIFO,654,id,plered,0,11.900
+FIFO,655,ua,kayiry,0,11.200
+FIFO,656,ua,molodizhne,0,10.800
+FIFO,657,sl,barma,0,10.300
+FIFO,658,in,gharghoda,0,10.600
+FIFO,659,ru,krasnogorskoye,0,11.000
+FIFO,660,gr,astros,0,10.500
+FIFO,661,nl,boxmeer,0,10.500
+FIFO,662,tr,kestel,0,11.300
+FIFO,663,ch,greifensee,0,10.400
+FIFO,664,br,itaparica,0,10.700
+FIFO,665,fr,marly-le-roi,0,10.100
+FIFO,666,co,floresta,0,10.500
+FIFO,667,es,almeria,0,10.500
+FIFO,668,cz,jablunkov,0,10.700
+FIFO,669,tw,hsichih,0,11.000
+FIFO,670,gr,astros,1,1.500
+FIFO,671,be,oudenburg,0,10.400
+FIFO,672,br,nova granada,0,10.500
+FIFO,673,es,almeria,1,1.400
+FIFO,674,ro,bogdanesti,0,9.800
+FIFO,675,mg,toamasina,0,11.800
+FIFO,676,ua,nova kakhovka,0,11.300
+FIFO,677,de,tostedt,0,11.200
+FIFO,678,ro,baraolt,0,10.400
+FIFO,679,th,ao luk,0,10.200
+FIFO,680,ba,donja orahovica,0,11.600
+FIFO,681,us,wilmington,0,11.200
+FIFO,682,br,buri,0,10.200
+FIFO,683,ru,yelizavetinskaya,0,11.400
+FIFO,684,br,campo grande,0,11.100
+FIFO,685,mg,toamasina,1,1.300
+FIFO,686,in,bicholim,0,10.200
+FIFO,687,us,pierre,0,10.600
+FIFO,688,ru,bolshevik,0,10.200
+FIFO,689,us,oakdale,0,10.700
+FIFO,690,us,watervliet,0,10.800
+FIFO,691,gr,astros,0,10.800
+FIFO,692,hn,salama,0,12.100
+FIFO,693,cn,qingyuan,0,10.500
+FIFO,694,ne,dakoro,0,11.300
+FIFO,695,pl,swietochlowice,0,12.000
+FIFO,696,ru,guryevsk,0,10.600
+FIFO,697,ro,bogdanesti,0,10.400
+FIFO,698,cl,chimbarongo,0,10.100
+FIFO,699,ph,anibongan,0,10.600
+FIFO,700,pe,puerto maldonado,0,11.700
+FIFO,701,br,massaranduba,0,10.300
+FIFO,702,lu,reckange-sur-mess,0,12.300
+FIFO,703,ci,bocanda,0,10.300
+FIFO,704,ru,novokruchininskiy,0,12.100
+FIFO,705,ee,kohtla-jarve,0,11.800
+FIFO,706,ca,saint-hyacinthe,0,11.300
+FIFO,707,pt,cartaxo,0,10.700
+FIFO,708,mx,mexicaltzingo,0,11.100
+FIFO,709,ph,estancia,0,10.700
+FIFO,710,ca,saint-hyacinthe,1,0.800
+FIFO,711,co,tasco,0,11.400
+FIFO,712,ph,la paz,0,10.500
+FIFO,713,gb,kinglassie,0,11.900
+FIFO,714,ne,ouallam,0,10.600
+FIFO,715,es,almeria,0,11.500
+FIFO,716,mu,verdun,0,11.300
+FIFO,717,gb,brighouse,0,10.900
+FIFO,718,nl,boxmeer,0,10.900
+FIFO,719,us,pierre,0,10.900
+FIFO,720,ca,saskatoon,0,10.400
+FIFO,721,us,sumter,0,10.800
+FIFO,722,be,oudenburg,0,10.600
+FIFO,723,ci,bocanda,0,10.300
+FIFO,724,si,polzela,0,30.700
+FIFO,725,ve,santa teresa,0,10.500
+FIFO,726,fr,gentilly,0,10.300
+FIFO,727,de,mombris,0,11.300
+FIFO,728,gt,san antonio huista,0,12.000
+FIFO,729,ro,comlosu mare,0,11.000
+FIFO,730,cz,jablunkov,0,10.100
+FIFO,731,br,tupaciguara,0,10.400
+FIFO,732,ca,saint-donat-de-montcalm,0,12.200
+FIFO,733,th,pa daet,0,11.200
+FIFO,734,cl,chimbarongo,0,10.100
+FIFO,735,de,wesel,0,10.400
+FIFO,736,sk,namestovo,0,11.300
+FIFO,737,gt,san antonio huista,1,1.400
+FIFO,738,ru,zyryanskoye,0,10.700
+FIFO,739,co,guatape,0,12.000
+FIFO,740,br,candelaria,0,10.400
+FIFO,741,th,pa daet,1,1.100
+FIFO,742,in,bilaspur,0,10.300
+FIFO,743,in,alirajpur,0,11.200
+FIFO,744,br,nova granada,0,11.300
+FIFO,745,ro,comlosu mare,0,10.300
+FIFO,746,mk,vranestica,0,11.000
+FIFO,747,ne,ouallam,0,10.100
+FIFO,748,mx,mexicaltzingo,0,10.600
+FIFO,749,si,polzela,0,10.200
+FIFO,750,ca,saint-germain-de-grantham,0,15.300
+Random,1,co,guatape,0,15.200
+Random,2,gr,nea stira,0,24.400
+Random,3,ru,elektrougli,0,16.100
+Random,4,ne,dakoro,0,8.300
+Random,5,gy,mabaruma,0,16.300
+Random,6,in,samana,0,9.500
+Random,7,ca,bonaventure,0,10.100
+Random,8,de,kolkwitz,0,8.500
+Random,9,ro,bilbor,0,15.800
+Random,10,cz,jablunkov,0,7.400
+Random,11,bh,manama,0,13.000
+Random,12,ca,saint-hyacinthe,0,11.600
+Random,13,fr,marly-le-roi,0,11.200
+Random,14,si,polzela,0,9.900
+Random,15,us,snohomish,0,10.400
+Random,16,mx,itzican,0,10.400
+Random,17,mx,tuxtla chico,0,10.100
+Random,18,ca,saint-donat-de-montcalm,0,11.700
+Random,19,ve,punto fijo,0,11.700
+Random,20,re,saint-paul,0,10.700
+Random,21,in,samana,1,1.300
+Random,22,it,melito di porto salvo,0,12.500
+Random,23,us,albuquerque,0,11.100
+Random,24,th,pa daet,0,10.500
+Random,25,cn,qingyuan,0,9.200
+Random,26,ca,saint-germain-de-grantham,0,10.300
+Random,27,ws,maninoa,0,11.000
+Random,28,es,almeria,0,11.000
+Random,29,cl,chimbarongo,0,10.300
+Random,30,es,benicarlo,0,9.500
+Random,31,ua,nova kakhovka,0,11.700
+Random,32,mg,toamasina,0,12.100
+Random,33,ru,nikolskiy,0,10.600
+Random,34,us,wilmington,0,9.500
+Random,35,zm,chadiza,0,11.000
+Random,36,br,itaparica,0,11.600
+Random,37,ro,moldova noua,0,11.300
+Random,38,ru,novokruchininskiy,0,11.500
+Random,39,sk,namestovo,0,11.500
+Random,40,cl,chimbarongo,0,10.100
+Random,41,be,rouvroy,0,10.500
+Random,42,nz,rawene,0,11.100
+Random,43,ru,novosineglazovskiy,0,11.400
+Random,44,br,itaparica,1,1.300
+Random,45,ro,draguseni,0,11.800
+Random,46,us,albuquerque,0,10.900
+Random,47,ne,dakoro,0,10.800
+Random,48,co,guatape,0,10.700
+Random,49,ro,bilbor,0,10.100
+Random,50,fr,marly-le-roi,0,9.800
+Random,51,mg,toamasina,0,10.400
+Random,52,ws,siusega,0,10.800
+Random,53,de,mombris,0,10.500
+Random,54,cn,aojiang,0,10.800
+Random,55,ru,krasnyye tkachi,0,10.400
+Random,56,ru,elektrougli,0,10.400
+Random,57,sl,baoma,0,9.900
+Random,58,ro,sibot,0,10.900
+Random,59,bh,manama,0,9.600
+Random,60,sl,baoma,0,9.700
+Random,61,ru,ladovskaya balka,0,11.200
+Random,62,ru,guryevsk,0,10.000
+Random,63,lu,reckange-sur-mess,0,12.200
+Random,64,ro,sibot,1,1.200
+Random,65,in,bilaspur,0,11.300
+Random,66,us,oakdale,0,10.700
+Random,67,gr,astros,0,8.900
+Random,68,ua,krasnosilka,0,10.900
+Random,69,ne,ouallam,0,9.800
+Random,70,mx,jalpa,0,10.200
+Random,71,ru,bolshevik,0,9.400
+Random,72,lu,folschette,0,11.700
+Random,73,de,holzwickede,0,10.700
+Random,74,cn,xuchang,0,10.500
+Random,75,mx,arteaga,0,10.200
+Random,76,in,raxaul,0,10.000
+Random,77,cu,jovellanos,0,10.500
+Random,78,us,kernersville,0,10.500
+Random,79,gt,san antonio huista,0,12.000
+Random,80,pk,jam sahib,0,11.900
+Random,81,bh,manama,0,10.200
+Random,82,ws,siusega,0,10.000
+Random,83,in,bilaspur,1,0.900
+Random,84,gr,astros,0,10.500
+Random,85,co,guatape,0,10.800
+Random,86,ru,guryevsk,0,10.300
+Random,87,in,anakapalle,0,10.600
+Random,88,de,wesel,0,8.800
+Random,89,mg,toamasina,0,9.800
+Random,90,ro,dorna,0,10.300
+Random,91,es,almeria,0,10.200
+Random,92,gb,tiverton,0,11.000
+Random,93,jp,yorii,0,10.900
+Random,94,re,saint-paul,0,10.800
+Random,95,nz,rawene,0,10.400
+Random,96,ro,baraolt,0,11.000
+Random,97,br,pirapora do bom jesus,0,11.900
+Random,98,br,eirunepe,0,11.200
+Random,99,re,saint-paul,1,1.100
+Random,100,cn,aojiang,0,10.100
+Random,101,mt,gzira,0,10.700
+Random,102,mt,gzira,1,0.700
+Random,103,in,alirajpur,0,9.600
+Random,104,ee,kohtla-jarve,0,10.400
+Random,105,us,temple,0,10.100
+Random,106,de,holzwickede,0,9.700
+Random,107,in,bilaspur,0,8.000
+Random,108,br,massaranduba,0,7.000
+Random,109,bt,tongsa,0,7.700
+Random,110,in,jansath,0,7.000
+Random,111,tw,hsichih,0,6.200
+Random,112,ua,horodnytsya,0,7.200
+Random,113,ru,kangly,0,7.200
+Random,114,ph,cabatuan,0,7.100
+Random,115,mx,jalpa,0,6.900
+Random,116,no,grong,0,7.700
+Random,117,gd,gouyave,0,8.100
+Random,118,sk,namestovo,0,7.000
+Random,119,mu,verdun,0,6.700
+Random,120,in,daosa,0,6.400
+Random,121,us,kernersville,0,6.800
+Random,122,th,pa daet,0,7.100
+Random,123,jp,yorii,0,6.700
+Random,124,in,chidambaram,0,7.300
+Random,125,es,benicarlo,0,6.800
+Random,126,np,janakpur,0,7.000
+Random,127,ca,golden,0,6.900
+Random,128,ca,saint-hyacinthe,0,8.400
+Random,129,us,hamden,0,7.200
+Random,130,ca,saint-hyacinthe,1,0.300
+Random,131,ro,furculesti,0,7.400
+Random,132,tw,hsichih,0,7.000
+Random,133,ru,mosta,0,7.400
+Random,134,ro,comlosu mare,0,7.100
+Random,135,cl,chimbarongo,0,5.900
+Random,136,cn,shenzhen,0,6.900
+Random,137,cl,chimbarongo,1,0.500
+Random,138,gb,dufftown,0,7.200
+Random,139,br,itaparica,0,7.300
+Random,140,de,bovenden,0,7.700
+Random,141,us,magna,0,7.100
+Random,142,de,mombris,0,6.900
+Random,143,ee,kohtla-jarve,0,6.800
+Random,144,si,polzela,0,6.900
+Random,145,rs,urosevac,0,7.300
+Random,146,th,ao luk,0,6.700
+Random,147,zm,chadiza,0,6.800
+Random,148,ch,peseux,0,7.000
+Random,149,th,ao luk,0,7.100
+Random,150,ne,dakoro,0,6.900
+Random,151,co,silvania,0,7.400
+Random,152,us,lady lake,0,7.500
+Random,153,gr,nea stira,0,7.600
+Random,154,hu,mezokovesd,0,7.400
+Random,155,hu,tompa,0,6.900
+Random,156,pl,swietochlowice,0,8.100
+Random,157,th,ao luk,1,0.500
+Random,158,si,polzela,1,0.800
+Random,159,co,tasco,0,8.300
+Random,160,in,alirajpur,0,9.700
+Random,161,th,ao luk,1,0.700
+Random,162,zm,chadiza,0,8.900
+Random,163,lu,folschette,0,8.800
+Random,164,ru,dzerzhinskiy,0,9.500
+Random,165,br,candelaria,0,9.900
+Random,166,es,sant cugat del valles,0,11.200
+Random,167,sl,baoma,0,7.300
+Random,168,us,los alamitos,0,9.800
+Random,169,be,oudenburg,0,7.700
+Random,170,ph,bilad,0,7.500
+Random,171,ro,furculesti,0,7.400
+Random,172,ro,furculesti,1,0.900
+Random,173,ve,santa teresa,0,8.100
+Random,174,lt,dusetos,0,7.600
+Random,175,co,guatape,0,7.200
+Random,176,ca,saint-hyacinthe,0,7.400
+Random,177,ro,cochirleanca,0,7.200
+Random,178,pe,puerto maldonado,0,7.100
+Random,179,in,samana,0,7.200
+Random,180,in,rudarpur,0,7.000
+Random,181,bh,manama,0,7.300
+Random,182,us,pierre,0,7.800
+Random,183,in,bilaspur,0,6.800
+Random,184,ba,donja orahovica,0,7.600
+Random,185,al,bajram curri,0,8.400
+Random,186,cz,jablunkov,0,6.900
+Random,187,us,hamden,0,7.000
+Random,188,in,muktsar,0,7.300
+Random,189,es,almeria,0,6.800
+Random,190,zm,chadiza,0,6.200
+Random,191,cn,qingyuan,0,7.000
+Random,192,us,albuquerque,0,6.500
+Random,193,cz,jablunkov,1,0.500
+Random,194,ee,kohtla-jarve,0,7.800
+Random,195,id,plered,0,8.200
+Random,196,de,mombris,0,6.900
+Random,197,cn,qingyuan,1,0.600
+Random,198,sa,sabya,0,9.200
+Random,199,ca,saint-germain-de-grantham,0,8.900
+Random,200,er,ginda,0,7.400
+Random,201,in,shertallai,0,7.100
+Random,202,ru,krasnyye tkachi,0,7.800
+Random,203,es,almeria,0,7.300
+Random,204,in,daosa,0,5.900
+Random,205,cn,zhaozhou,0,7.100
+Random,206,lk,battaramulla,0,7.600
+Random,207,ro,giurgita,0,7.400
+Random,208,ru,dzerzhinskiy,0,7.100
+Random,209,lu,beidweiler,0,7.500
+Random,210,us,bell gardens,0,7.600
+Random,211,ru,bolshevik,0,7.200
+Random,212,sl,baoma,0,6.500
+Random,213,pe,oyotun,0,6.900
+Random,214,in,shertallai,0,6.600
+Random,215,sl,baoma,1,0.400
+Random,216,mx,jalpa,0,7.100
+Random,217,in,daosa,1,0.800
+Random,218,us,los alamitos,0,6.800
+Random,219,co,guatape,1,1.000
+Random,220,us,magna,0,6.900
+Random,221,in,jansath,0,7.100
+Random,222,cn,xuchang,0,7.400
+Random,223,us,dothan,0,6.200
+Random,224,mg,toamasina,0,7.200
+Random,225,no,grong,0,6.900
+Random,226,gb,tiverton,0,7.000
+Random,227,sa,sabya,0,7.700
+Random,228,mx,tuxtla,0,6.700
+Random,229,us,dothan,1,0.500
+Random,230,es,almeria,0,6.900
+Random,231,mg,toamasina,1,0.700
+Random,232,si,polzela,0,7.300
+Random,233,in,daosa,0,6.000
+Random,234,ru,tselinnoye,0,6.900
+Random,235,fr,gentilly,0,6.700
+Random,236,be,oudenburg,0,7.100
+Random,237,in,daosa,1,0.600
+Random,238,br,nova granada,0,7.700
+Random,239,th,pa daet,0,7.100
+Random,240,be,oudenburg,1,0.400
+Random,241,ne,dakoro,0,6.600
+Random,242,sk,namestovo,0,6.900
+Random,243,us,south lake tahoe,0,7.800
+Random,244,co,alto baudo,0,7.500
+Random,245,be,oudenburg,1,0.500
+Random,246,co,tasco,0,6.500
+Random,247,cz,jablunkov,0,7.300
+Random,248,jp,yorii,0,7.300
+Random,249,co,guatape,0,6.400
+Random,250,us,lady lake,0,7.100
+Random,251,pt,tavira,0,7.700
+Random,252,cn,xuchang,0,6.700
+Random,253,mx,tilzapotla,0,7.500
+Random,254,ph,bilad,0,6.000
+Random,255,ne,dakoro,1,0.700
+Random,256,gr,nea stira,0,7.200
+Random,257,pl,swietochlowice,0,7.800
+Random,258,ne,ouallam,0,12.000
+Random,259,sk,namestovo,0,7.500
+Random,260,sl,baoma,0,7.000
+Random,261,in,anakapalle,0,7.100
+Random,262,ch,wahlern,0,7.600
+Random,263,pl,polczyn-zdroj,0,7.600
+Random,264,in,bilaspur,0,6.800
+Random,265,ro,manastirea homorului,0,9.400
+Random,266,br,bento goncalves,0,11.300
+Random,267,mx,zapotlanejo,0,8.800
+Random,268,br,eirunepe,0,7.600
+Random,269,pl,polczyn-zdroj,0,9.000
+Random,270,mu,verdun,0,9.300
+Random,271,ru,tikhvin,0,8.900
+Random,272,gr,astros,0,10.000
+Random,273,us,brookfield,0,10.100
+Random,274,es,sant cugat del valles,0,8.200
+Random,275,ca,golden,0,7.800
+Random,276,ne,ouallam,0,6.200
+Random,277,pk,jam sahib,0,6.700
+Random,278,us,hamden,0,7.500
+Random,279,ro,bogdanesti,0,7.600
+Random,280,us,muskegon heights,0,8.000
+Random,281,us,south patrick shores,0,8.800
+Random,282,in,bicholim,0,7.100
+Random,283,in,daosa,0,6.900
+Random,284,ru,tikhvin,0,7.100
+Random,285,br,massaranduba,0,6.700
+Random,286,mk,vranestica,0,7.400
+Random,287,mx,san marcos,0,7.400
+Random,288,ru,komsomolskiy,0,7.900
+Random,289,ro,lunca,0,7.400
+Random,290,ru,kostek,0,7.600
+Random,291,cz,jablunkov,0,6.700
+Random,292,sa,sabya,0,8.400
+Random,293,pk,sharqpur,0,6.500
+Random,294,us,bell gardens,0,7.100
+Random,295,ne,dakoro,0,7.000
+Random,296,us,pierre,0,7.100
+Random,297,in,bilaspur,0,6.900
+Random,298,in,gharghoda,0,6.400
+Random,299,ph,san jose,0,6.700
+Random,300,pe,pacasmayo,0,8.100
+Random,301,fr,marly-le-roi,0,7.200
+Random,302,br,nova granada,0,7.000
+Random,303,pk,kot diji,0,6.600
+Random,304,in,bhadravati,0,7.600
+Random,305,ua,kayiry,0,7.900
+Random,306,in,kotagiri,0,7.200
+Random,307,hu,tompa,0,7.300
+Random,308,hu,tompa,1,0.400
+Random,309,mk,vranestica,0,6.800
+Random,310,de,kolkwitz,0,7.600
+Random,311,th,pa daet,0,6.100
+Random,312,pk,jam sahib,0,7.000
+Random,313,us,brookfield,0,7.000
+Random,314,ro,cetatea de balta,0,8.300
+Random,315,sl,barma,0,7.600
+Random,316,ru,yelizavetinskaya,0,7.900
+Random,317,ro,manastirea homorului,0,8.100
+Random,318,br,tupaciguara,0,7.500
+Random,319,ro,cetatea de balta,1,0.500
+Random,320,co,tasco,0,9.600
+Random,321,fr,gentilly,0,14.100
+Random,322,th,pa daet,1,1.100
+Random,323,ee,kohtla-jarve,0,9.500
+Random,324,in,gharghoda,0,8.900
+Random,325,ch,peseux,0,8.500
+Random,326,sl,baoma,0,9.700
+Random,327,al,bajram curri,0,10.800
+Random,328,mt,gzira,0,9.800
+Random,329,us,cidra,0,7.500
+Random,330,es,benicarlo,0,7.100
+Random,331,sl,baoma,1,0.500
+Random,332,np,janakpur,0,7.100
+Random,333,es,villaviciosa,0,7.300
+Random,334,mx,tuxtla,0,7.400
+Random,335,br,nova granada,0,6.900
+Random,336,ph,cabatuan,0,7.200
+Random,337,ru,bolshevik,0,7.400
+Random,338,ua,nova kakhovka,0,7.700
+Random,339,jp,yorii,0,7.400
+Random,340,us,lady lake,0,7.000
+Random,341,ve,santa teresa,0,9.200
+Random,342,cn,shenzhen,0,8.100
+Random,343,ee,kohtla-jarve,0,7.100
+Random,344,ru,tikhvin,0,6.700
+Random,345,th,pa daet,0,8.700
+Random,346,pl,swietochlowice,0,10.400
+Random,347,ci,bocanda,0,9.700
+Random,348,sk,namestovo,0,9.100
+Random,349,pk,jam sahib,0,8.400
+Random,350,cn,qingyuan,0,9.300
+Random,351,us,snohomish,0,9.900
+Random,352,py,pirayu,0,10.100
+Random,353,ve,santa teresa,0,8.100
+Random,354,es,benicarlo,0,6.900
+Random,355,us,kernersville,0,7.200
+Random,356,ve,santa teresa,1,0.400
+Random,357,ro,draguseni,0,7.300
+Random,358,ba,donja orahovica,0,7.600
+Random,359,es,benicarlo,1,0.500
+Random,360,us,wilmington,0,7.600
+Random,361,us,kernersville,1,0.900
+Random,362,be,rouvroy,0,6.800
+Random,363,ch,greifensee,0,6.900
+Random,364,hn,puerto cortes,0,7.900
+Random,365,ua,molodizhne,0,7.300
+Random,366,br,cariacica,0,7.300
+Random,367,ro,baraolt,0,7.000
+Random,368,cl,chimbarongo,0,7.500
+Random,369,cz,jablunkov,0,6.700
+Random,370,in,shertallai,0,7.100
+Random,371,ch,peseux,0,6.800
+Random,372,no,grong,0,6.700
+Random,373,in,daosa,0,6.800
+Random,374,de,rottenburg,0,7.600
+Random,375,us,adrian,0,7.400
+Random,376,ve,santa teresa,1,0.600
+Random,377,fr,marly-le-roi,0,7.500
+Random,378,gy,mabaruma,0,7.700
+Random,379,sn,ourossogui,0,7.500
+Random,380,ru,volchikha,0,7.100
+Random,381,pl,swietochlowice,0,7.100
+Random,382,ro,dorna,0,29.200
+Random,383,ru,ishimbay,0,8.100
+Random,384,id,plered,0,9.500
+Random,385,ro,baraolt,0,11.200
+Random,386,us,knoxville,0,8.300
+Random,387,ee,kohtla-jarve,0,9.000
+Random,388,hu,szaszvar,0,10.400
+Random,389,cz,jablunkov,0,8.400
+Random,390,mt,gzira,0,9.700
+Random,391,in,kotagiri,0,8.400
+Random,392,es,benicarlo,0,9.200
+Random,393,zm,chadiza,0,8.800
+Random,394,cz,jablunkov,1,0.800
+Random,395,cm,mbouda,0,7.700
+Random,396,mx,itzican,0,7.500
+Random,397,cl,freire,0,7.700
+Random,398,uz,nurobod,0,7.100
+Random,399,fi,rauma,0,7.400
+Random,400,th,ao luk,0,7.500
+Random,401,cn,shenzhen,0,6.100
+Random,402,us,lady lake,0,6.800
+Random,403,ru,ladovskaya balka,0,8.200
+Random,404,de,mombris,0,7.200
+Random,405,zm,chadiza,0,6.300
+Random,406,mg,toamasina,0,8.500
+Random,407,ua,kayiry,0,7.500
+Random,408,id,plered,0,7.400
+Random,409,th,pa daet,0,7.200
+Random,410,ro,bogdanesti,0,7.100
+Random,411,ua,horodnytsya,0,7.300
+Random,412,ru,volchikha,0,7.100
+Random,413,de,mombris,0,6.800
+Random,414,pe,puerto maldonado,0,9.000
+Random,415,ph,san roque,0,7.700
+Random,416,es,almeria,0,8.300
+Random,417,sl,mamboma,0,8.300
+Random,418,de,holzwickede,0,7.500
+Random,419,de,holzwickede,1,0.800
+Random,420,ca,saint-germain-de-grantham,0,10.700
+Random,421,us,albuquerque,0,11.200
+Random,422,us,temple,0,10.700
+Random,423,ws,maninoa,0,11.200
+Random,424,ws,maninoa,1,1.200
+Random,425,ro,baraolt,0,11.300
+Random,426,ua,nova kakhovka,0,11.300
+Random,427,zm,chadiza,0,10.500
+Random,428,us,lady lake,1,1.400
+Random,429,jp,yorii,0,10.500
+Random,430,cl,freire,0,10.100
+Random,431,gr,nea stira,0,11.000
+Random,432,mx,arteaga,0,11.000
+Random,433,cd,likasi,0,9.700
+Random,434,ru,novokruchininskiy,0,11.500
+Random,435,cd,likasi,1,1.000
+Random,436,be,oudenburg,0,11.700
+Random,437,ca,brandon,0,10.600
+Random,438,us,northbridge,0,11.200
+Random,439,in,bilaspur,0,10.200
+Random,440,my,batu arang,0,10.600
+Random,441,us,oakdale,0,11.000
+Random,442,cz,jablunkov,0,10.100
+Random,443,cz,jablunkov,1,0.500
+Random,444,br,buri,0,11.000
+Random,445,jp,yorii,0,9.700
+Random,446,pe,uchiza,0,10.500
+Random,447,ch,wahlern,0,9.600
+Random,448,be,rouvroy,0,10.700
+Random,449,fi,rauma,0,10.100
+Random,450,de,rottenburg,0,10.500
+Random,451,fi,rauma,1,0.700
+Random,452,ro,dorna,0,10.000
+Random,453,no,klofta,0,10.400
+Random,454,ro,baraolt,0,9.400
+Random,455,kz,serebryansk,0,11.100
+Random,456,in,bhadravati,0,11.400
+Random,457,ci,bocanda,0,10.700
+Random,458,al,bajram curri,0,11.200
+Random,459,de,rottenburg,1,0.900
+Random,460,ua,kayiry,0,9.900
+Random,461,ru,usva,0,10.100
+Random,462,de,holzwickede,0,10.300
+Random,463,in,bhadravati,0,10.100
+Random,464,py,laureles,0,10.600
+Random,465,co,alto baudo,0,11.400
+Random,466,co,guatape,0,9.700
+Random,467,de,holzwickede,1,0.800
+Random,468,mg,toamasina,0,10.800
+Random,469,my,batu arang,1,1.300
+Random,470,ne,dakoro,0,10.100
+Random,471,ve,punto fijo,0,10.800
+Random,472,ch,wahlern,0,9.700
+Random,473,cz,tabor,0,9.400
+Random,474,il,sheikh dannun,0,11.100
+Random,475,ee,kohtla-jarve,0,10.900
+Random,476,fr,gentilly,0,10.400
+Random,477,co,guatape,0,9.800
+Random,478,pe,pacasmayo,0,10.600
+Random,479,id,plered,0,10.900
+Random,480,in,daosa,0,9.700
+Random,481,ci,bocanda,0,10.000
+Random,482,ne,dakoro,1,0.800
+Random,483,de,obernkirchen,0,11.200
+Random,484,ro,dorna,0,9.800
+Random,485,ru,nikolskiy,0,10.600
+Random,486,hu,mezokovesd,0,10.800
+Random,487,ru,tselinnoye,0,10.700
+Random,488,mx,pedro escobedo,0,11.100
+Random,489,ru,novosineglazovskiy,0,10.900
+Random,490,hn,puerto cortes,0,10.900
+Random,491,fi,rauma,0,10.400
+Random,492,ru,yakovlevka,0,10.700
+Random,493,hu,szaszvar,0,10.000
+Random,494,ro,cochirleanca,0,9.200
+Random,495,ru,volodarskiy,0,10.900
+Random,496,gr,astros,0,10.400
+Random,497,tr,kestel,0,11.300
+Random,498,mx,itzican,0,10.600
+Random,499,ch,greifensee,0,10.600
+Random,500,hu,baracska,0,10.200
+Random,501,us,lady lake,0,10.200
+Random,502,mx,tuxtla chico,0,10.500
+Random,503,ci,bocanda,0,9.800
+Random,504,de,obernkirchen,0,36.200
+Random,505,sl,baoma,0,10.000
+Random,506,ru,tikhvin,0,10.600
+Random,507,ru,volodarskiy,0,9.800
+Random,508,cl,chimbarongo,0,12.800
+Random,509,in,samana,0,13.900
+Random,510,gr,nea stira,0,12.000
+Random,511,il,sheikh dannun,0,13.100
+Random,512,bg,gurkovo,0,15.400
+Random,513,ph,santa maria,0,11.100
+Random,514,in,daosa,0,10.500
+Random,515,de,wesel,0,11.300
+Random,516,ca,saint-donat-de-montcalm,0,13.400
+Random,517,sl,mamboma,0,11.900
+Random,518,er,ginda,0,10.000
+Random,519,ve,zaraza,0,11.300
+Random,520,cl,chimbarongo,0,10.400
+Random,521,ch,wahlern,0,10.200
+Random,522,in,bilaspur,0,10.000
+Random,523,ro,baraolt,0,10.300
+Random,524,lu,beidweiler,0,11.300
+Random,525,co,guatape,0,10.500
+Random,526,ba,donja orahovica,0,11.600
+Random,527,ro,otopeni,0,11.200
+Random,528,br,itaparica,0,11.100
+Random,529,in,bilaspur,1,0.600
+Random,530,ke,bungoma,0,11.400
+Random,531,ro,baraolt,1,1.400
+Random,532,us,caldwell,0,10.700
+Random,533,ne,ouallam,0,11.200
+Random,534,ua,kayiry,0,10.500
+Random,535,us,northbridge,0,10.400
+Random,536,jp,yorii,0,9.200
+Random,537,ru,tselinnoye,0,10.200
+Random,538,ru,tikhvin,0,10.300
+Random,539,us,watervliet,0,11.000
+Random,540,ro,balanesti,0,9.600
+Random,541,pk,jam sahib,0,11.300
+Random,542,de,selm,0,13.300
+Random,543,nz,halcombe,0,13.300
+Random,544,pe,pacasmayo,0,13.200
+Random,545,sk,namestovo,0,13.700
+Random,546,mx,san marcos,0,13.800
+Random,547,bo,eucaliptus,0,13.400
+Random,548,hu,mezokovesd,0,14.700
+Random,549,ci,bocanda,0,14.600
+Random,550,ph,santa lucia,0,13.700
+Random,551,it,cividale del friuli,0,16.500
+Random,552,fr,boulogne-billancourt,0,15.700
+Random,553,us,pierre,0,14.300
+Random,554,br,atalaia,0,14.200
+Random,555,ne,dakoro,0,13.000
+Random,556,ch,wahlern,0,13.900
+Random,557,ro,dorna,0,9.400
+Random,558,ru,krasnyye tkachi,0,15.000
+Random,559,br,eirunepe,0,13.300
+Random,560,uy,nueva helvecia,0,15.300
+Random,561,no,vikevag,0,69.900
+Random,562,gb,dufftown,0,19.900
+Random,563,mx,zapotlanejo,0,15.800
+Random,564,ru,ladovskaya balka,0,16.900
+Random,565,ne,dakoro,0,14.600
+Random,566,us,hamden,0,15.300
+Random,567,cz,jablunkov,0,16.100
+Random,568,br,nova granada,0,15.700
+Random,569,ru,yelizavetinskaya,0,15.700
+Random,570,mx,mexicaltzingo,0,15.800
+Random,571,gb,lerwick,0,14.100
+Random,572,cl,chimbarongo,0,14.300
+Random,573,ro,baraolt,0,13.100
+Random,574,ve,zaraza,0,12.600
+Random,575,us,knoxville,0,13.500
+Random,576,ru,tselinnoye,1,1.500
+Random,577,be,rouvroy,0,15.700
+Random,578,ph,santa maria,0,12.900
+Random,579,ru,zyryanskoye,0,13.100
+Random,580,in,kotagiri,0,13.400
+Random,581,ch,greifensee,0,14.600
+Random,582,ro,baraolt,0,13.200
+Random,583,ve,santa teresa,0,13.500
+Random,584,fr,gentilly,0,12.100
+Random,585,ca,saint-hyacinthe,0,15.400
+Random,586,gb,christchurch,0,13.700
+Random,587,ca,saint-germain-de-grantham,0,16.400
+Random,588,in,daosa,0,14.300
+Random,589,in,bicholim,0,14.300
+Random,590,zm,chadiza,0,13.300
+Random,591,tz,usagara,0,91.000
+Random,592,mx,arteaga,0,14.800
+Random,593,th,ao luk,0,15.600
+Random,594,us,pierre,0,14.300
+Random,595,in,bicholim,1,1.800
+Random,596,ru,kostek,0,16.400
+Random,597,zm,chadiza,0,14.900
+Random,598,ru,tselinnoye,0,13.400
+Random,599,br,buri,0,14.600
+Random,600,ch,peseux,0,15.100
+Random,601,hu,mezokovesd,0,15.700
+Random,602,br,itaparica,0,15.700
+Random,603,ro,dragalina,0,15.100
+Random,604,pe,pacasmayo,0,17.100
+Random,605,ca,saint-donat-de-montcalm,0,19.500
+Random,606,sn,ourossogui,0,17.300
+Random,607,fr,boulogne-billancourt,0,17.400
+Random,608,in,kotagiri,0,13.500
+Random,609,my,batu arang,0,14.200
+Random,610,gb,kinglassie,0,15.000
+Random,611,bo,eucaliptus,0,14.500
+Random,612,ru,ladovskaya balka,0,16.400
+Random,613,cn,aojiang,0,15.300
+Random,614,ph,la paz,0,16.500
+Random,615,ph,cabatuan,0,16.800
+Random,616,cn,aojiang,1,1.000
+Random,617,mx,itzican,0,15.600
+Random,618,br,bento goncalves,0,15.300
+Random,619,gr,astros,0,16.000
+Random,620,ro,bogdanesti,0,16.000
+Random,621,np,janakpur,0,13.900
+Random,622,be,oudenburg,0,15.200
+Random,623,ws,maninoa,0,15.800
+Random,624,br,massaranduba,0,16.300
+Random,625,re,saint-paul,0,15.500
+Random,626,ru,bolshevik,0,12.900
+Random,627,th,ao luk,0,14.600
+Random,628,pa,la herradura,0,13.900
+Random,629,cm,mbouda,0,16.700
+Random,630,ru,kangly,0,14.000
+Random,631,in,kotagiri,0,14.500
+Random,632,tw,hsichih,0,14.200
+Random,633,it,melito di porto salvo,0,17.100
+Random,634,us,pierre,0,15.300
+Random,635,us,hamden,0,20.400
+Random,636,us,middletown,0,13.900
+Random,637,si,polzela,0,15.500
+Random,638,cl,chimbarongo,0,18.700
+Random,639,ne,dakoro,0,15.700
+Random,640,sl,barma,0,13.600
+Random,641,ru,volodarskiy,0,13.000
+Random,642,fr,marly-le-roi,0,14.800
+Random,643,br,eirunepe,0,12.700
+Random,644,es,almeria,0,16.300
+Random,645,sl,barma,0,13.400
+Random,646,th,ao luk,0,16.100
+Random,647,in,daosa,0,15.300
+Random,648,ru,dzerzhinskiy,0,16.100
+Random,649,in,bhadravati,0,16.300
+Random,650,us,magna,0,15.300
+Random,651,cl,chimbarongo,1,1.200
+Random,652,ne,dakoro,0,12.400
+Random,653,br,itaparica,0,14.100
+Random,654,id,plered,0,14.600
+Random,655,ua,kayiry,0,12.200
+Random,656,ua,molodizhne,0,13.700
+Random,657,sl,barma,1,1.800
+Random,658,in,gharghoda,0,13.300
+Random,659,ru,krasnogorskoye,0,15.100
+Random,660,gr,astros,0,15.600
+Random,661,nl,boxmeer,0,15.600
+Random,662,tr,kestel,0,300.800
+Random,663,ch,greifensee,0,19.500
+Random,664,br,itaparica,1,1.600
+Random,665,fr,marly-le-roi,0,14.800
+Random,666,co,floresta,0,13.800
+Random,667,es,almeria,0,14.300
+Random,668,cz,jablunkov,0,13.400
+Random,669,tw,hsichih,0,14.500
+Random,670,gr,astros,0,15.100
+Random,671,be,oudenburg,0,15.400
+Random,672,br,nova granada,0,14.100
+Random,673,es,almeria,0,13.600
+Random,674,ro,bogdanesti,0,16.100
+Random,675,mg,toamasina,0,24.700
+Random,676,ua,nova kakhovka,0,16.400
+Random,677,de,tostedt,0,15.600
+Random,678,ro,baraolt,0,14.100
+Random,679,th,ao luk,0,14.000
+Random,680,ba,donja orahovica,0,15.600
+Random,681,us,wilmington,0,15.500
+Random,682,br,buri,0,14.000
+Random,683,ru,yelizavetinskaya,0,17.500
+Random,684,br,campo grande,0,15.600
+Random,685,mg,toamasina,0,12.700
+Random,686,in,bicholim,0,13.600
+Random,687,us,pierre,0,14.300
+Random,688,ru,bolshevik,0,14.700
+Random,689,us,oakdale,0,15.400
+Random,690,us,watervliet,0,11.800
+Random,691,gr,astros,0,14.500
+Random,692,hn,salama,0,14.400
+Random,693,cn,qingyuan,0,12.900
+Random,694,ne,dakoro,0,13.200
+Random,695,pl,swietochlowice,0,15.800
+Random,696,ru,guryevsk,0,14.300
+Random,697,ro,bogdanesti,0,13.500
+Random,698,cl,chimbarongo,0,15.200
+Random,699,ph,anibongan,0,12.600
+Random,700,pe,puerto maldonado,0,16.200
+Random,701,br,massaranduba,0,14.900
+Random,702,lu,reckange-sur-mess,0,16.500
+Random,703,ci,bocanda,0,11.000
+Random,704,ru,novokruchininskiy,0,12.500
+Random,705,ee,kohtla-jarve,0,11.600
+Random,706,ca,saint-hyacinthe,0,10.600
+Random,707,pt,cartaxo,0,11.300
+Random,708,mx,mexicaltzingo,0,11.600
+Random,709,ph,estancia,0,11.300
+Random,710,ca,saint-hyacinthe,1,1.000
+Random,711,co,tasco,0,11.400
+Random,712,ph,la paz,0,10.800
+Random,713,gb,kinglassie,0,11.400
+Random,714,ne,ouallam,0,9.200
+Random,715,es,almeria,0,11.100
+Random,716,mu,verdun,0,11.200
+Random,717,gb,brighouse,0,10.600
+Random,718,nl,boxmeer,0,11.400
+Random,719,us,pierre,0,10.200
+Random,720,ca,saskatoon,0,10.300
+Random,721,us,sumter,0,10.300
+Random,722,be,oudenburg,0,11.000
+Random,723,ci,bocanda,0,10.200
+Random,724,si,polzela,0,11.600
+Random,725,ve,santa teresa,0,11.200
+Random,726,fr,gentilly,0,10.700
+Random,727,de,mombris,0,11.900
+Random,728,gt,san antonio huista,0,12.100
+Random,729,ro,comlosu mare,0,11.200
+Random,730,cz,jablunkov,0,10.600
+Random,731,br,tupaciguara,0,10.300
+Random,732,ca,saint-donat-de-montcalm,0,12.600
+Random,733,th,pa daet,0,11.200
+Random,734,cl,chimbarongo,0,13.500
+Random,735,de,wesel,0,13.000
+Random,736,sk,namestovo,0,14.000
+Random,737,gt,san antonio huista,0,13.100
+Random,738,ru,zyryanskoye,0,11.100
+Random,739,co,guatape,0,12.100
+Random,740,br,candelaria,0,11.000
+Random,741,th,pa daet,1,1.000
+Random,742,in,bilaspur,0,10.900
+Random,743,in,alirajpur,0,10.800
+Random,744,br,nova granada,0,10.300
+Random,745,ro,comlosu mare,0,10.500
+Random,746,mk,vranestica,0,10.600
+Random,747,ne,ouallam,0,10.600
+Random,748,mx,mexicaltzingo,0,9.200
+Random,749,si,polzela,0,10.000
+Random,750,ca,saint-germain-de-grantham,0,11.800
